@@ -1,0 +1,91 @@
+ 1. Priority inheritance is one approach to address this issue. Please give another approach and briefly describe its idea.
+ Solution: There are multiple solutions to solve the problem like random boosting, priority ceiling etc.
+* We can use priority ceiling to overcome priority inheritance. In this approach each resource will be associated with a priority.
+Any process requesting for the resource will be given the associated priority by the scheduler. The associated priority is highest compared to other processes priority. So, any process acquiring this lock will always be running with the this priority, which is higher than others.
+*Another approach can be to increment the priority of the processes in ready Queue which are holding any locks.
+*We can also modify the synchronization mechanism such that when a higher priority process request for a lock, a lower priority process acquiring the lock is suspended till the higher priority process releases the lock.
+
+In task1.c, there are four processes, l, m1, m2, h with priorities in order 10 < 30 < 35 < 40.
+Process l and h share locks/semaphore to synchronize. 
+M1, m2 are processes with medium priority, I have used kprintfs to check which process is scheduled by the scheduler.
+In first case, Process l acquires the lock and starts execution with priority 10, when h resumes, priority of l changes to 40. Then, l, m2, m1 executes with priority
+(40, 35, 30) ( can be confirmed by monitoring reached).  I am printing the Priority of l during execution to check if the priority is inherited.
+In the second test case, l acquires the semaphore and starts execution. Then h request for the semaphore, and is added in the Queue. 
+Then m1, m2 are started. All three process runs with priority (35, 30, 10) by the scheduler( can be checked by monitoring reached).
+Once l completes execution, h acquires the lock and runs execution. 
+
+
+After running the test case it is confirmed that the priority inherited by the low priority is process. And the scheduler is scheduling the process based on inherited priority. 
+RESULTS :
+//***************************************************************///////////
+
+Xinu Version (CSC501 1-2017 base) #75 (ssudame@bn16-223.dcs.mcnc.org) Wed Mar 7 23:11:24 EST 2018
+
+16777216 bytes real mem
+106671 bytes Xinu code
+clock enabled
+
+Test sem: creating a lock
+Starting lowprio proc
+lowprioProc_lock is going to acquire locklowprioProc_Lock: lowprio: acquired lock, running
+!!Starting highprio proc
+highprioProc is going to acquire lock
+prio of lowprioproc change to : 40
+Starting medprio proc
+mediumprioproc is going to start
+.mediumprioproc is going to start
+.!!!!!!!!!!!!!!!!!
+highprioProc: highprio: acquired lock 703, sleep 7sec
+lowprioProc_lock released lock
+..............highprioProc released lock
+............end test
+
+Test sem: creating a sem
+Starting lowprio proc
+lowprioProc_sem is going to acquire sem
+lowprioProc_sem: lowprio: acquired sem , running
+..!!Starting highprio proc
+highprioProc is going to acquire sem
+Prio of lowprioProcess changed to : 10
+Starting medprio proc
+mediumprioproc is going to start
+.mediumprioproc is going to start
+.!!..!!..!!!..!!..!!..!!..!!!..!
+highprioProc: highprio: acquired sem 739, sleep 2sec
+lowprioProc_sem  released lock
+....highprioProc: highprio: released sen
+..........End test
+
+/***************************************************************////
+
+In the above result '!' reprents  the low priority process. '.' represents the medium priority process. In the first case, I am using locks to synchronize the prcesses. When the higher priority process is added in wait queue, the lower priority process inherits its priority(40).we can see a continuous sequence of '!', this means that scheduler is scheduling lower priority process more often.  The time taken by higher priority lock is 703 ms.
+
+Incase 2, i am using semaphore to synchronize, priority of lower priority process remains 10. We can see alternate pattern of '!' and '.'. As the lower priority process is running with priority 10 ( lowest). it is premented often.
+Time taken to acquire lock for higher prio process is 739 ms. 
+
+The difference is time to acquired is minute in this example, but in real time scenario, when multiple processes are in ready queue, priority inheritance will be helpful is solving the problem of starvation.
+
+NOTE: no. of ! can not be compared with no. of '.'; both are executed by loops with different iteration and sleep values. Only used to show rescheduling. 
+
+Solution 2. In the given code snippet: the resources/data can be modified by the function call to buffer_add, when called from try_update. 
+So, if two process tries to update the global_buf, it may lead to buff corruption caused by process interleaving. 
+If  multiple reader acquire access to READ in do_update, they can update the global_buf simultaneously. As readers are not blocked on unless a writer has acquired a lock. For example following sequence of event may lead to interleaving:
+If we have two readers : R1 And R2.
+1. R1 acquires the READ_LOCK, and calls try_update();
+2. R1 gets the string form of time, and copies in bufstr
+3. R1 acquires semaphore ( semaphore count reduces to 9)
+4. R1 calls buffer_add on the global variable global_buf
+5. Inside Buffer_add R1 copies the data to the global_buff.
+6. By this time another reader R2 has acquired the READ_LOCK, and acquires semaphore(reducing it to 8)
+7. Before R1 updates the ‘Len’ of global_buf, context switch happens, and R2 is rescheduled. 
+
+8. R2 calls buffer_add, and tries to copy  new text data, but with the original Len. 
+9. R2 updates the buff len. 
+10. R1 Is scheduled , It updates the buff Len again.
+
+In the above scenario, R2 uses the old offset to copy text. Thus it over writes the data copied by R1.
+In the code, readers should not be allowed to add to global_buff without synchronization. At a time only one process should be allowed to update the global_buf. Thus, the process should request a WRITE access before updating the global variable
+
+
+ 
+
