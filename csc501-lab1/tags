@@ -1,0 +1,1923 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	lib/libxc/Makefile	/^AR	=	\/usr\/bin\/ar$/;"	m
+ARP_HLEN	h/mon/monarp.h	36;"	d
+AR_HARDWARE	h/mon/monarp.h	8;"	d
+AR_REPLY	h/mon/monarp.h	13;"	d
+AR_REQUEST	h/mon/monarp.h	12;"	d
+AS	compile/Makefile	/^AS      =       \/usr\/bin\/as$/;"	m
+AS	lib/libxc/Makefile	/^AS	=	\/usr\/bin\/as$/;"	m
+ASFLAGS	compile/Makefile	/^ASFLAGS = --32$/;"	m
+AS_FREE	h/mon/monarp.h	45;"	d
+AS_PENDING	h/mon/monarp.h	46;"	d
+AS_RESOLVED	h/mon/monarp.h	47;"	d
+AWK	compile/Makefile	/^AWK	=	awk$/;"	m
+BADDEV	h/io.h	9;"	d
+BADPID	h/proc.h	37;"	d
+BEGIN_BOOTP	h/mon/monitor.h	14;"	d
+BEGIN_RESERVED	h/mon/monbootp.h	112;"	d
+BEGIN_TFTP	h/mon/monitor.h	16;"	d
+BIG_ENDIAN	h/mon/monnetwork.h	6;"	d
+BIOS32_MAX_ADDR	h/mon/monpci.h	24;"	d
+BIOS32_MAX_ADDR	h/pci.h	24;"	d
+BIOS32_MIN_ADDR	h/mon/monpci.h	23;"	d
+BIOS32_MIN_ADDR	h/pci.h	23;"	d
+BIOS32_SIGNATURE	h/mon/monpci.h	25;"	d
+BIOS32_SIGNATURE	h/pci.h	25;"	d
+BIOS32_UNITS	h/mon/monpci.h	26;"	d
+BIOS32_UNITS	h/pci.h	26;"	d
+BLOCKERR	h/kernel.h	41;"	d
+BOOTPLOC	compile/Makefile	/^BOOTPLOC=	0x150000$/;"	m
+BOOTP_CODE	sys/i386.c	9;"	d	file:
+BOOTP_CPORT	h/mon/monbootp.h	52;"	d
+BOOTP_REQ_SENT	h/mon/monitor.h	15;"	d
+BOOTP_RETX	h/mon/monitor.h	20;"	d
+BOOTP_SIZE	h/mon/monbootp.h	117;"	d
+BOOTP_SPORT	h/mon/monbootp.h	51;"	d
+BOOTREPLY	h/mon/monbootp.h	61;"	d
+BOOTREQUEST	h/mon/monbootp.h	60;"	d
+BOOT_DONE	h/mon/monitor.h	18;"	d
+BOOT_ERROR	h/mon/monitor.h	19;"	d
+BOOT_FILE_SIZE	h/mon/monbootp.h	110;"	d
+BOOT_MAGIC	sys/startup.S	/^#define	BOOT_MAGIC	0xB00DEF01$/;"	d
+BPMAXB	h/bufpool.h	12;"	d
+BPMAXN	h/bufpool.h	16;"	d
+BPMINB	h/bufpool.h	14;"	d
+BRELOC	compile/Makefile	/^BRELOC  =	0x100000$/;"	m
+BUILTIN	h/kernel.h	19;"	d
+BYTE	h/mon/monnetwork.h	41;"	d
+BYTE_ORDER	h/mon/monnetwork.h	7;"	d
+B_LEN	sys/startup.S	/^#define	B_LEN			4$/;"	d
+B_MAGIC	sys/startup.S	/^#define	B_MAGIC			0$/;"	d
+Bool	h/kernel.h	/^typedef	char		Bool;		\/* Boolean type			*\/$/;"	t
+CC	compile/Makefile	/^CC      =       \/usr\/bin\/gcc$/;"	m
+CC	config/Makefile	/^CC	= \/usr\/bin\/gcc	$/;"	m
+CC	lib/libxc/Makefile	/^CC	=	\/usr\/bin\/gcc$/;"	m
+CFILES	compile/Makefile	/^CFILES = ..\/*\/*.c ..\/*\/*\/*.c$/;"	m
+CFILES	lib/libxc/Makefile	/^CFILES	=	abs.c atof.c atoi.c atol.c blkcopy.s bzero.c ctype_.c	\\$/;"	m
+CFLAGS	compile/Makefile	/^CFLAGS  = -m32 -march=i586 -fno-builtin -c -Wall -O0 ${DEFS} ${INCLUDE}$/;"	m
+CFLAGS	config/Makefile	/^CFLAGS	= -m32 -march=i586 ${DEFS}$/;"	m
+CFLAGS	lib/libxc/Makefile	/^CFLAGS	=	-march=i586 -m32 -fno-builtin -O -c -I..\/..\/h$/;"	m
+CHAR	h/kernel.h	/^typedef	char	CHAR;		\/* sizeof the unit the holds a character*\/$/;"	t
+CLKCNTL	sys/clkinit.c	14;"	d	file:
+CLOCK0	sys/clkinit.c	13;"	d	file:
+CLOCKBASE	sys/clkinit.c	12;"	d	file:
+CNTRL	tty/ttynew.c	36;"	d	file:
+COM	compile/Makefile	/^COM =	comcntl.c	comgetc.c	comiin.c	cominit.c	\\$/;"	m
+COMBUFSZ	h/com.h	135;"	d
+COMBUFSZ	h/mon/moncom.h	135;"	d
+COMMAND	h/kernel.h	18;"	d
+COMOBJ	compile/Makefile	/^COMOBJ = ${COM:%.c=%.o}$/;"	m
+CONSOLE	lib/libxc/gets.c	4;"	d	file:
+CONSOLE	lib/libxc/printf.c	4;"	d	file:
+CONSOLE	lib/libxc/puts.c	3;"	d	file:
+CONTINUE	mon/montftp.c	14;"	d	file:
+COOKIE_SERVER	h/mon/monbootp.h	105;"	d
+DEFS	config/Makefile	/^DEFS	=$/;"	m
+DELAY	h/i386.h	63;"	d
+DELAY	h/mon/moni386.h	63;"	d
+DELETED	h/kernel.h	42;"	d
+DELETEME	h/kernel.h	43;"	d
+DEVCALL	h/kernel.h	16;"	d
+DNS_SERVER	h/dns.h	9;"	d
+DNS_SUFFIX	h/dns.h	10;"	d
+DN_NTRIES	h/dns.h	11;"	d
+DN_QCIN	h/dns.h	7;"	d
+DN_QTHA	h/dns.h	6;"	d
+DOMAIN_NAMESERVER	h/mon/monbootp.h	103;"	d
+EEPROM_READ_CMD	mon/ethrom.c	9;"	d	file:
+EEP_ALL_MASK	h/mon/moneepro.h	68;"	d
+EEP_ALT_RDY_TM	h/mon/moneepro.h	79;"	d
+EEP_AUTO_ENABLE	h/mon/moneepro.h	61;"	d
+EEP_AUTO_PORT	h/mon/moneepro.h	107;"	d
+EEP_BANK0_SELECT	h/mon/moneepro.h	42;"	d
+EEP_BANK1_SELECT	h/mon/moneepro.h	43;"	d
+EEP_BANK2_SELECT	h/mon/moneepro.h	44;"	d
+EEP_BC_DISC	h/mon/moneepro.h	96;"	d
+EEP_BNC_BIT	h/mon/moneepro.h	108;"	d
+EEP_CMD_STATUS_MASK	h/mon/moneepro.h	31;"	d
+EEP_COMMAND_REG	h/mon/moneepro.h	30;"	d
+EEP_CRC_MEM	h/mon/moneepro.h	97;"	d
+EEP_DIAGNOSE_CMD	h/mon/moneepro.h	34;"	d
+EEP_EECS	h/mon/moneepro.h	121;"	d
+EEP_EEDI	h/mon/moneepro.h	122;"	d
+EEP_EEDO	h/mon/moneepro.h	123;"	d
+EEP_EEPROM_REG	h/mon/moneepro.h	119;"	d
+EEP_EESK	h/mon/moneepro.h	120;"	d
+EEP_EXEC_ABORT	h/mon/moneepro.h	52;"	d
+EEP_EXEC_ACTIVE	h/mon/moneepro.h	51;"	d
+EEP_EXEC_INT	h/mon/moneepro.h	50;"	d
+EEP_EXEC_MASK	h/mon/moneepro.h	67;"	d
+EEP_EXT_LOOPBACK	h/mon/moneepro.h	102;"	d
+EEP_HOST_ADDRESS_REG	h/mon/moneepro.h	73;"	d
+EEP_ID_REG	h/mon/moneepro.h	57;"	d
+EEP_ID_REG_MASK	h/mon/moneepro.h	59;"	d
+EEP_ID_REG_SIG	h/mon/moneepro.h	60;"	d
+EEP_INT_ENABLE	h/mon/moneepro.h	82;"	d
+EEP_INT_LOOPBACK	h/mon/moneepro.h	101;"	d
+EEP_INT_MASK_REG	h/mon/moneepro.h	63;"	d
+EEP_INT_SEL_REG	h/mon/moneepro.h	81;"	d
+EEP_IO_PORT	h/mon/moneepro.h	74;"	d
+EEP_I_ADD_REG0	h/mon/moneepro.h	112;"	d
+EEP_I_ADD_REG1	h/mon/moneepro.h	113;"	d
+EEP_I_ADD_REG2	h/mon/moneepro.h	114;"	d
+EEP_I_ADD_REG3	h/mon/moneepro.h	115;"	d
+EEP_I_ADD_REG4	h/mon/moneepro.h	116;"	d
+EEP_I_ADD_REG5	h/mon/moneepro.h	117;"	d
+EEP_MC_ALL	h/mon/moneepro.h	98;"	d
+EEP_MC_SETUP	h/mon/moneepro.h	32;"	d
+EEP_MULTI_IA	h/mon/moneepro.h	100;"	d
+EEP_NO_SA_INS	h/mon/moneepro.h	99;"	d
+EEP_POWER_DOWN_CMD	h/mon/moneepro.h	39;"	d
+EEP_PRMSC_Mode	h/mon/moneepro.h	95;"	d
+EEP_RAM_SIZE_32	h/mon/moneepro.h	128;"	d
+EEP_RAM_SIZE_64	h/mon/moneepro.h	132;"	d
+EEP_RCV_ACTIVE	h/mon/moneepro.h	54;"	d
+EEP_RCV_BAR	h/mon/moneepro.h	70;"	d
+EEP_RCV_DISABLE_CMD	h/mon/moneepro.h	36;"	d
+EEP_RCV_DONE	h/mon/moneepro.h	6;"	d
+EEP_RCV_Disc_BadFrame	h/mon/moneepro.h	91;"	d
+EEP_RCV_ENABLE_CMD	h/mon/moneepro.h	35;"	d
+EEP_RCV_LOWER_LIMIT_REG	h/mon/moneepro.h	83;"	d
+EEP_RCV_RDY	h/mon/moneepro.h	53;"	d
+EEP_RCV_STOP	h/mon/moneepro.h	71;"	d
+EEP_RCV_UPPER_LIMIT_REG	h/mon/moneepro.h	84;"	d
+EEP_REG1	h/mon/moneepro.h	77;"	d
+EEP_REG2	h/mon/moneepro.h	94;"	d
+EEP_REG3	h/mon/moneepro.h	105;"	d
+EEP_RESET_CMD	h/mon/moneepro.h	38;"	d
+EEP_RESUME_XMT_CMD	h/mon/moneepro.h	40;"	d
+EEP_RX_ERROR	h/mon/moneepro.h	8;"	d
+EEP_RX_HEADER	h/mon/moneepro.h	136;"	d
+EEP_RX_INT	h/mon/moneepro.h	48;"	d
+EEP_RX_MASK	h/mon/moneepro.h	65;"	d
+EEP_RX_OK	h/mon/moneepro.h	7;"	d
+EEP_RX_SIZE_32	h/mon/moneepro.h	130;"	d
+EEP_RX_SIZE_64	h/mon/moneepro.h	134;"	d
+EEP_RX_STOP_MASK	h/mon/moneepro.h	64;"	d
+EEP_RX_STP_INT	h/mon/moneepro.h	47;"	d
+EEP_R_ROBIN_BITS	h/mon/moneepro.h	58;"	d
+EEP_SEL_RESET_CMD	h/mon/moneepro.h	41;"	d
+EEP_STATUS_REG	h/mon/moneepro.h	46;"	d
+EEP_STOP_IN_PROG	h/mon/moneepro.h	55;"	d
+EEP_STOP_RCV_CMD	h/mon/moneepro.h	37;"	d
+EEP_TEST1	h/mon/moneepro.h	110;"	d
+EEP_TEST2	h/mon/moneepro.h	109;"	d
+EEP_TPE_BIT	h/mon/moneepro.h	106;"	d
+EEP_TRI_ST_INT	h/mon/moneepro.h	80;"	d
+EEP_TX_COLLISION_MASK	h/mon/moneepro.h	15;"	d
+EEP_TX_DEFFERED	h/mon/moneepro.h	14;"	d
+EEP_TX_DMA_UNDERRUN	h/mon/moneepro.h	13;"	d
+EEP_TX_HEADER	h/mon/moneepro.h	137;"	d
+EEP_TX_INT	h/mon/moneepro.h	49;"	d
+EEP_TX_MASK	h/mon/moneepro.h	66;"	d
+EEP_TX_MAX_COLLISIONS	h/mon/moneepro.h	11;"	d
+EEP_TX_NO_CARRIER	h/mon/moneepro.h	12;"	d
+EEP_TX_OK	h/mon/moneepro.h	10;"	d
+EEP_TX_SIZE_32	h/mon/moneepro.h	129;"	d
+EEP_TX_SIZE_64	h/mon/moneepro.h	133;"	d
+EEP_WORD_WIDTH	h/mon/moneepro.h	78;"	d
+EEP_XMT_BAR	h/mon/moneepro.h	72;"	d
+EEP_XMT_CMD	h/mon/moneepro.h	33;"	d
+EEP_XMT_Chain_ErrStop	h/mon/moneepro.h	90;"	d
+EEP_XMT_Chain_Int	h/mon/moneepro.h	89;"	d
+EEP_XMT_LOWER_LIMIT_REG	h/mon/moneepro.h	85;"	d
+EEP_XMT_UPPER_LIMIT_REG	h/mon/moneepro.h	86;"	d
+EMPTY	h/kernel.h	11;"	d
+END	h/mon/monbootp.h	115;"	d
+END_RESERVED	h/mon/monbootp.h	113;"	d
+EOF	h/kernel.h	37;"	d
+EOF	lib/libxc/doscan.c	7;"	d	file:
+EOF	lib/libxc/gets.c	5;"	d	file:
+EOI	h/icu.h	12;"	d
+EPC_MADD	h/mon/monether.h	64;"	d
+EPC_MDEL	h/mon/monether.h	65;"	d
+EPC_PROMOFF	h/mon/monether.h	63;"	d
+EPC_PROMON	h/mon/monether.h	62;"	d
+EPT_ARP	h/mon/monether.h	28;"	d
+EPT_ECHO	h/mon/monether.h	25;"	d
+EPT_IP	h/mon/monether.h	27;"	d
+EPT_LOOP	h/mon/monether.h	24;"	d
+EPT_PUP	h/mon/monether.h	26;"	d
+EPT_RARP	h/mon/monether.h	29;"	d
+EP_ALEN	h/mon/monether.h	13;"	d
+EP_BRC	h/mon/monether.h	18;"	d
+EP_CRC	h/mon/monether.h	14;"	d
+EP_DLEN	h/mon/monether.h	11;"	d
+EP_HLEN	h/mon/monether.h	12;"	d
+EP_MAXLEN	h/mon/monether.h	15;"	d
+EP_MAXMULTI	h/mon/monether.h	8;"	d
+EP_MINLEN	h/mon/monether.h	10;"	d
+EP_NUMRCV	h/mon/monether.h	21;"	d
+EP_NUMRCVL2	h/mon/monether.h	22;"	d
+EP_RETRY	h/mon/monether.h	17;"	d
+EP_RTO	h/mon/monether.h	19;"	d
+ETINQSZ	h/mon/monether.h	58;"	d
+ETOUTQSZ	h/mon/monether.h	57;"	d
+EXPT	lib/libxc/float.s	/^EXPT	= 2				|exponent (-127\/+127)$/;"	d
+Eaddr	h/mon/monether.h	/^typedef	unsigned char	Eaddr[EP_ALEN]; \/* a physical Ethernet address	*\/$/;"	t
+FALSE	h/kernel.h	9;"	d
+FALSE	h/mon/monconf.h	7;"	d
+FDFREE	h/proc.h	16;"	d
+GATEWAY	h/mon/monbootp.h	100;"	d
+GETBUF	mon/mon3com.c	17;"	d	file:
+HIBYTE	h/kernel.h	27;"	d
+HOLEEND	sys/initialize.c	20;"	d	file:
+HOLESIZE	sys/initialize.c	18;"	d	file:
+HOLESTART	sys/initialize.c	19;"	d	file:
+HOSTNAME	h/mon/monbootp.h	109;"	d
+HOSTNAMELEN	h/dns.h	4;"	d
+I82595_CHAIN_BIT	h/mon/moneepro.h	21;"	d
+I82595_TX_CHAIN_OFF	h/mon/moneepro.h	26;"	d
+I82595_TX_COUNT_OFF	h/mon/moneepro.h	27;"	d
+I82595_TX_DONE_BIT	h/mon/moneepro.h	20;"	d
+I82595_TX_STATUS_OFF	h/mon/moneepro.h	25;"	d
+IBLEN	h/tty.h	6;"	d
+ICU1	h/icu.h	6;"	d
+ICU2	h/icu.h	7;"	d
+IEN_NAMESERVER	h/mon/monbootp.h	102;"	d
+IGDT_INTR	h/i386.h	25;"	d
+IGDT_INTR	h/mon/moni386.h	25;"	d
+IGDT_TASK	h/i386.h	24;"	d
+IGDT_TASK	h/mon/moni386.h	24;"	d
+IGDT_TRAPG	h/i386.h	26;"	d
+IGDT_TRAPG	h/mon/moni386.h	26;"	d
+IMPRESS_SERVER	h/mon/monbootp.h	107;"	d
+IMR	h/icu.h	10;"	d
+INCLUDE	compile/Makefile	/^INCLUDE = -I..\/h$/;"	m
+INITARGS	h/kernel.h	50;"	d
+INITNAME	h/kernel.h	49;"	d
+INITPRIO	h/kernel.h	48;"	d
+INITREG	h/kernel.h	52;"	d
+INITRET	h/kernel.h	51;"	d
+INITSTK	h/kernel.h	47;"	d
+INT	h/kernel.h	/^typedef int	INT;		\/* sizeof compiler integer		*\/$/;"	t
+INTEL_ETH0	mon/ethinit.c	94;"	d	file:
+INTEL_ETH1	mon/ethinit.c	95;"	d	file:
+INTEL_ETH2	mon/ethinit.c	96;"	d	file:
+INTPROC	h/kernel.h	20;"	d
+INTRMSG	h/kernel.h	39;"	d
+IPMHLEN	h/mon/monip.h	70;"	d
+IPO_CLASS	h/mon/monip.h	74;"	d
+IPO_COPY	h/mon/monip.h	73;"	d
+IPO_EOOP	h/mon/monip.h	77;"	d
+IPO_LSRCRT	h/mon/monip.h	80;"	d
+IPO_NOP	h/mon/monip.h	78;"	d
+IPO_NUM	h/mon/monip.h	75;"	d
+IPO_RECRT	h/mon/monip.h	82;"	d
+IPO_SEC	h/mon/monip.h	79;"	d
+IPO_SSRCRT	h/mon/monip.h	81;"	d
+IPO_STRID	h/mon/monip.h	83;"	d
+IPO_TIME	h/mon/monip.h	84;"	d
+IPP_CRIT	h/mon/monip.h	61;"	d
+IPP_FLASH	h/mon/monip.h	63;"	d
+IPP_FLASHO	h/mon/monip.h	62;"	d
+IPP_IMMED	h/mon/monip.h	64;"	d
+IPP_INCTL	h/mon/monip.h	60;"	d
+IPP_NETCTL	h/mon/monip.h	59;"	d
+IPP_NORMAL	h/mon/monip.h	66;"	d
+IPP_PRIO	h/mon/monip.h	65;"	d
+IPT_EGP	h/mon/monip.h	30;"	d
+IPT_ICMP	h/mon/monip.h	27;"	d
+IPT_IGMP	h/mon/monip.h	28;"	d
+IPT_OSPF	h/mon/monip.h	32;"	d
+IPT_TCP	h/mon/monip.h	29;"	d
+IPT_UDP	h/mon/monip.h	31;"	d
+IP_ALEN	h/mon/monip.h	8;"	d
+IP_CLASSA	h/mon/monip.h	12;"	d
+IP_CLASSA	h/mon/monip.h	18;"	d
+IP_CLASSB	h/mon/monip.h	13;"	d
+IP_CLASSB	h/mon/monip.h	19;"	d
+IP_CLASSC	h/mon/monip.h	14;"	d
+IP_CLASSC	h/mon/monip.h	20;"	d
+IP_CLASSD	h/mon/monip.h	15;"	d
+IP_CLASSD	h/mon/monip.h	21;"	d
+IP_CLASSE	h/mon/monip.h	16;"	d
+IP_CLASSE	h/mon/monip.h	22;"	d
+IP_DF	h/mon/monip.h	53;"	d
+IP_FRAGOFF	h/mon/monip.h	54;"	d
+IP_HLEN	h/mon/monip.h	69;"	d
+IP_MAXLEN	h/mon/monip.h	86;"	d
+IP_MF	h/mon/monip.h	52;"	d
+IP_MINHLEN	h/mon/monip.h	49;"	d
+IP_PREC	h/mon/monip.h	55;"	d
+IP_TTL	h/mon/monip.h	50;"	d
+IP_VERSION	h/mon/monip.h	48;"	d
+IPaddr	h/mon/monip.h	/^typedef	unsigned long IPaddr;	\/*  internet address			*\/$/;"	t
+IRQBASE	h/i386.h	11;"	d
+IRQBASE	h/mon/moni386.h	11;"	d
+KCODE	sys/i386.c	10;"	d	file:
+KDATA	sys/i386.c	12;"	d	file:
+KIND	tty/ttyiin.c	149;"	d	file:
+KSTACK	sys/i386.c	11;"	d	file:
+L1	mon/moncksum.S	/^L1:$/;"	l
+L1	sys/startup.S	/^L1:$/;"	l
+L100	lib/libxc/blkcopy.s	/^L100:		\/* backwards blkcopy *\/$/;"	l
+L2	mon/moncksum.S	/^L2:$/;"	l
+L3	mon/moncksum.S	/^L3:$/;"	l
+L4	mon/moncksum.S	/^L4:$/;"	l
+L5	mon/moncksum.S	/^L5:$/;"	l
+L7	mon/moncksum.S	/^L7:$/;"	l
+LD	compile/Makefile	/^LD      =       \/usr\/bin\/ld$/;"	m
+LEX	config/Makefile	/^LEX	= \/usr\/bin\/flex$/;"	m
+LFLAGS	config/Makefile	/^LFLAGS	= -lfl$/;"	m
+LIB	compile/Makefile	/^LIB     =       ..\/lib$/;"	m
+LIB	lib/libxc/Makefile	/^LIB	=	..$/;"	m
+LITTLE_ENDIAN	h/mon/monnetwork.h	5;"	d
+LOCAL	h/kernel.h	17;"	d
+LOCAL	h/mon/monnetwork.h	4;"	d
+LOCAL	lib/libxc/doprnt.c	4;"	d	file:
+LOG_ALERT	h/syslog.h	8;"	d
+LOG_AUTH	h/syslog.h	22;"	d
+LOG_AUTHPRIV	h/syslog.h	28;"	d
+LOG_CRIT	h/syslog.h	9;"	d
+LOG_CRON	h/syslog.h	27;"	d
+LOG_DAEMON	h/syslog.h	21;"	d
+LOG_DEBUG	h/syslog.h	14;"	d
+LOG_EMERG	h/syslog.h	7;"	d
+LOG_ERR	h/syslog.h	10;"	d
+LOG_INFO	h/syslog.h	13;"	d
+LOG_KERN	h/syslog.h	18;"	d
+LOG_LPR	h/syslog.h	24;"	d
+LOG_MAIL	h/syslog.h	20;"	d
+LOG_MAXLEN	h/syslog.h	3;"	d
+LOG_NEWS	h/syslog.h	25;"	d
+LOG_NOTICE	h/syslog.h	12;"	d
+LOG_SERVER	h/mon/monbootp.h	104;"	d
+LOG_SYSLOG	h/syslog.h	23;"	d
+LOG_USER	h/syslog.h	19;"	d
+LOG_UUCP	h/syslog.h	26;"	d
+LOG_WARNING	h/syslog.h	11;"	d
+LONG	lib/libxc/doscan.c	15;"	d	file:
+LOW16	h/kernel.h	28;"	d
+LOWBYTE	h/kernel.h	26;"	d
+LPR_SERVER	h/mon/monbootp.h	106;"	d
+MAGIC	h/kernel.h	31;"	d
+MAKETD	compile/Makefile	/^MAKETD  =	\/usr\/X11R6\/bin\/makedepend$/;"	m
+MANH	lib/libxc/float.s	/^MANH	= 4				|high mantissa$/;"	d
+MANL	lib/libxc/float.s	/^MANL	= 8				|low mantissa$/;"	d
+MARKER	h/mark.h	/^typedef	int	MARKER[1];	\/* by declaring it to be an array, the	*\/$/;"	t
+MAXHWALEN	h/mon/monarp.h	33;"	d
+MAXINT	h/kernel.h	25;"	d
+MAXLONG	h/kernel.h	65;"	d
+MAXMARK	h/mark.h	7;"	d
+MAXNQ	mon/mongpq.c	16;"	d	file:
+MAXNQ	sys/gpq.c	25;"	d	file:
+MAXPRALEN	h/mon/monarp.h	34;"	d
+MAXSTR	lib/libxc/doprnt.c	3;"	d	file:
+MAX_RCV	mon/ethdemux.c	11;"	d	file:
+MAX_RCV	mon/mon3com.c	16;"	d	file:
+MININT	h/kernel.h	24;"	d
+MINLONG	h/kernel.h	66;"	d
+MINSTK	h/kernel.h	29;"	d
+MON	compile/Makefile	/^MON =   monitor.c       monarp.c        monbootp.c      monip.c         \\$/;"	m
+MONOBJ	compile/Makefile	/^MONOBJ = ${MON:%.c=%.o}$/;"	m
+MON_ARP_TSIZE	h/mon/monitor.h	30;"	d
+MON_MAXNETBUF	h/mon/monitor.h	27;"	d
+MON_MAXSTR	mon/monitor.c	19;"	d	file:
+MON_MAX_TRY	h/mon/monitor.h	23;"	d
+MON_NETBUFS	h/mon/monitor.h	25;"	d
+MON_PROMPT	mon/monitor.c	18;"	d	file:
+MULTIBOOT_HEADER_FLAGS	sys/startup.S	/^#define MULTIBOOT_HEADER_FLAGS 0x00000003$/;"	d
+MULTIBOOT_HEADER_MAGIC	sys/startup.S	/^#define MULTIBOOT_HEADER_MAGIC 0x1BADB002$/;"	d
+NBPG	h/i386.h	6;"	d
+NBPG	h/mon/moni386.h	6;"	d
+NBPG	sys/initialize.c	219;"	d	file:
+NBPOOLS	h/bufpool.h	9;"	d
+NDIG	lib/libxc/ecvt.c	10;"	d	file:
+NGD	h/i386.h	9;"	d
+NGD	h/mon/moni386.h	9;"	d
+NID	h/i386.h	8;"	d
+NID	h/mon/moni386.h	8;"	d
+NIS_DOWN	h/mon/monnetif.h	12;"	d
+NIS_TESTING	h/mon/monnetif.h	13;"	d
+NIS_UP	h/mon/monnetif.h	11;"	d
+NI_MAXHWA	h/mon/monnetif.h	4;"	d
+NOCHAR	h/tty.h	84;"	d
+NPROC	h/proc.h	9;"	d
+NQENT	h/q.h	9;"	d
+NSEM	h/sem.h	7;"	d
+NULL	h/kernel.h	12;"	d
+NULL	h/mon/monconf.h	10;"	d
+NULL	lib/libxc/doscan.c	8;"	d	file:
+NULL	lib/libxc/fgets.c	3;"	d	file:
+NULL	lib/libxc/gets.c	3;"	d	file:
+NULL	lib/libxc/index.c	6;"	d	file:
+NULL	lib/libxc/rindex.c	6;"	d	file:
+NULLCH	h/kernel.h	13;"	d
+NULLPROC	h/proc.h	35;"	d
+NULLSTK	h/kernel.h	30;"	d
+NULLSTR	h/kernel.h	14;"	d
+OBJ	compile/Makefile	/^OBJ =	${COMOBJ} ${MONOBJ} ${SYSOBJ} ${TTYOBJ}		\\$/;"	m
+OBLEN	h/tty.h	7;"	d
+OCR	h/icu.h	9;"	d
+OFILES	lib/libxc/Makefile	/^OFILES	=	abs.o atof.o atoi.o atol.o blkcopy.o bzero.o ctype_.o	\\$/;"	m
+OK	h/kernel.h	35;"	d
+OK	h/mon/monconf.h	8;"	d
+OK	lib/libxc/fprintf.c	3;"	d	file:
+OK	lib/libxc/printf.c	3;"	d	file:
+O_APPEND	h/io.h	23;"	d
+O_CREAT	h/io.h	24;"	d
+O_EXCL	h/io.h	26;"	d
+O_NDELAY	h/io.h	22;"	d
+O_RDONLY	h/io.h	19;"	d
+O_RDWR	h/io.h	21;"	d
+O_TRUNC	h/io.h	25;"	d
+O_WRONLY	h/io.h	20;"	d
+PAD	h/mon/monbootp.h	97;"	d
+PCIBIOS_BAD_REGISTER_NUMBER	h/mon/monpci.h	57;"	d
+PCIBIOS_BAD_REGISTER_NUMBER	h/pci.h	57;"	d
+PCIBIOS_BAD_VENDOR_ID	h/mon/monpci.h	55;"	d
+PCIBIOS_BAD_VENDOR_ID	h/pci.h	55;"	d
+PCIBIOS_BUFFER_TOO_SMALL	h/mon/monpci.h	59;"	d
+PCIBIOS_BUFFER_TOO_SMALL	h/pci.h	59;"	d
+PCIBIOS_DEVICE_NOT_FOUND	h/mon/monpci.h	56;"	d
+PCIBIOS_DEVICE_NOT_FOUND	h/pci.h	56;"	d
+PCIBIOS_ETHERNET_CLASS	h/mon/monpci.h	61;"	d
+PCIBIOS_ETHERNET_CLASS	h/pci.h	61;"	d
+PCIBIOS_FIND_PCI_CLASS_CODE	h/mon/monpci.h	42;"	d
+PCIBIOS_FIND_PCI_CLASS_CODE	h/pci.h	42;"	d
+PCIBIOS_FIND_PCI_DEVICE	h/mon/monpci.h	41;"	d
+PCIBIOS_FIND_PCI_DEVICE	h/pci.h	41;"	d
+PCIBIOS_FUNC_NOT_SUPPORTED	h/mon/monpci.h	54;"	d
+PCIBIOS_FUNC_NOT_SUPPORTED	h/pci.h	54;"	d
+PCIBIOS_GENERATE_SPECIAL_CYCLE	h/mon/monpci.h	43;"	d
+PCIBIOS_GENERATE_SPECIAL_CYCLE	h/pci.h	43;"	d
+PCIBIOS_GET_IRQ_ROUTING_OPTIONS	h/mon/monpci.h	50;"	d
+PCIBIOS_GET_IRQ_ROUTING_OPTIONS	h/pci.h	50;"	d
+PCIBIOS_MAX_DEVICE	h/mon/monpci.h	63;"	d
+PCIBIOS_MAX_DEVICE	h/pci.h	63;"	d
+PCIBIOS_MAX_INDEX	h/mon/monpci.h	65;"	d
+PCIBIOS_MAX_INDEX	h/pci.h	65;"	d
+PCIBIOS_MAX_VENDOR	h/mon/monpci.h	64;"	d
+PCIBIOS_MAX_VENDOR	h/pci.h	64;"	d
+PCIBIOS_PCI_BIOS_PRESENT	h/mon/monpci.h	40;"	d
+PCIBIOS_PCI_BIOS_PRESENT	h/pci.h	40;"	d
+PCIBIOS_READ_CONFIG_BYTE	h/mon/monpci.h	44;"	d
+PCIBIOS_READ_CONFIG_BYTE	h/pci.h	44;"	d
+PCIBIOS_READ_CONFIG_DWORD	h/mon/monpci.h	46;"	d
+PCIBIOS_READ_CONFIG_DWORD	h/pci.h	46;"	d
+PCIBIOS_READ_CONFIG_WORD	h/mon/monpci.h	45;"	d
+PCIBIOS_READ_CONFIG_WORD	h/pci.h	45;"	d
+PCIBIOS_SET_FAILED	h/mon/monpci.h	58;"	d
+PCIBIOS_SET_FAILED	h/pci.h	58;"	d
+PCIBIOS_SET_PCI_IRQ	h/mon/monpci.h	51;"	d
+PCIBIOS_SET_PCI_IRQ	h/pci.h	51;"	d
+PCIBIOS_SUCCESSFUL	h/mon/monpci.h	53;"	d
+PCIBIOS_SUCCESSFUL	h/pci.h	53;"	d
+PCIBIOS_WRITE_CONFIG_BYTE	h/mon/monpci.h	47;"	d
+PCIBIOS_WRITE_CONFIG_BYTE	h/pci.h	47;"	d
+PCIBIOS_WRITE_CONFIG_DWORD	h/mon/monpci.h	49;"	d
+PCIBIOS_WRITE_CONFIG_DWORD	h/pci.h	49;"	d
+PCIBIOS_WRITE_CONFIG_WORD	h/mon/monpci.h	48;"	d
+PCIBIOS_WRITE_CONFIG_WORD	h/pci.h	48;"	d
+PCI_BUSMASTER	h/mon/monpci.h	72;"	d
+PCI_BUSMASTER	h/pci.h	72;"	d
+PCI_COMMAND	h/mon/monpci.h	71;"	d
+PCI_COMMAND	h/pci.h	71;"	d
+PCI_SERVICE	h/mon/monpci.h	29;"	d
+PCI_SERVICE	h/pci.h	29;"	d
+PCI_SIGNATURE	h/mon/monpci.h	69;"	d
+PCI_SIGNATURE	h/pci.h	69;"	d
+PINGD_COUNT	h/ping.h	5;"	d
+PINGD_DST	h/ping.h	11;"	d
+PINGD_FLOOD	h/ping.h	13;"	d
+PINGD_ID	h/ping.h	10;"	d
+PINGD_INT	h/ping.h	12;"	d
+PINGD_PATTERN	h/ping.h	7;"	d
+PINGD_PLEN	h/ping.h	8;"	d
+PINGD_SIZE	h/ping.h	9;"	d
+PINGD_TTL	h/ping.h	6;"	d
+PINGMAX_PLEN	h/ping.h	15;"	d
+PING_TIMEOUT	h/ping.h	17;"	d
+PNMLEN	h/proc.h	33;"	d
+PRCURR	h/proc.h	22;"	d
+PRFREE	h/proc.h	17;"	d
+PRFREE	h/proc.h	23;"	d
+PRINTERR	mon/monboot.c	21;"	d	file:
+PROCESS	h/kernel.h	21;"	d
+PRREADY	h/proc.h	24;"	d
+PRRECV	h/proc.h	25;"	d
+PRSLEEP	h/proc.h	26;"	d
+PRSUSP	h/proc.h	27;"	d
+PRTRECV	h/proc.h	29;"	d
+PRWAIT	h/proc.h	28;"	d
+PTR	h/kernel.h	/^typedef	char	*PTR;		\/* sizeof a char. or fcnt. pointer 	*\/$/;"	t
+Q	sys/gpq.c	/^static	struct	qinfo Q[MAXNQ];$/;"	v	typeref:struct:qinfo	file:
+QF_NOWAIT	h/q.h	33;"	d
+QF_WAIT	h/q.h	32;"	d
+QUANTUM	h/kernel.h	53;"	d
+RA_REPLY	h/mon/monarp.h	16;"	d
+RA_REQUEST	h/mon/monarp.h	15;"	d
+REG	h/kernel.h	/^typedef	int	REG;		\/* sizeof machine register		*\/$/;"	t
+REGDUMP	sys/evec.c	98;"	d	file:
+REGULAR	lib/libxc/doscan.c	14;"	d	file:
+RESCHNO	h/kernel.h	23;"	d
+RESCHYES	h/kernel.h	22;"	d
+RFC1084	h/mon/monbootp.h	82;"	d
+RLP_SERVER	h/mon/monbootp.h	108;"	d
+ROMDELAY	mon/ethrom.c	7;"	d	file:
+RUBOUT	tty/ttyiin.c	111;"	d	file:
+SDEFS	compile/Makefile	/^SDEFS	= -I..\/h$/;"	m
+SDT_INTG	h/i386.h	52;"	d
+SDT_INTG	h/mon/moni386.h	52;"	d
+SECPERDY	h/date.h	25;"	d
+SECPERHR	h/date.h	26;"	d
+SECPERMN	h/date.h	27;"	d
+SFLAGS	lib/libxc/Makefile	/^SFLAGS	=	-I..\/..\/h$/;"	m
+SFREE	h/sem.h	10;"	d
+SHA	h/mon/monarp.h	27;"	d
+SHORT	lib/libxc/doscan.c	13;"	d	file:
+SIGN	lib/libxc/float.s	/^SIGN	= 0				|sign$/;"	d
+SPA	h/mon/monarp.h	28;"	d
+SPC	lib/libxc/doscan.c	10;"	d	file:
+SRC	compile/Makefile	/^SRC = ${COM} ${TTY} ${MON} ${SYS}$/;"	m
+STATWORD	h/kernel.h	/^typedef short	STATWORD[1];	\/* machine status for disable\/restore	*\/$/;"	t
+STATWORD	h/mon/monconf.h	/^typedef short   STATWORD[1];$/;"	t
+STKDETAIL	sys/stacktrace.c	11;"	d	file:
+STP	lib/libxc/doscan.c	11;"	d	file:
+SUBNETMASK	h/mon/monbootp.h	98;"	d
+SUSED	h/sem.h	11;"	d
+SYS	compile/Makefile	/^SYS =	blkcmp.c	blkequ.c	main.c		stacktrace.c	\\$/;"	m
+SYSCALL	h/kernel.h	15;"	d
+SYSERR	h/kernel.h	36;"	d
+SYSERR	h/mon/monconf.h	9;"	d
+SYSOBJ	compile/Makefile	/^SYSOBJ = ${SYS:%.c=%.o}$/;"	m
+SZCHADDR	h/mon/monbootp.h	54;"	d
+SZFNAME	h/mon/monbootp.h	56;"	d
+SZSNAME	h/mon/monbootp.h	55;"	d
+SZVENDOR	h/mon/monbootp.h	57;"	d
+TCTP_TYPE_RRQ	h/mon/montftp.h	12;"	d
+TCTP_TYPE_WRQ	h/mon/montftp.h	13;"	d
+TFTP_ACK_SZ	h/mon/montftp.h	10;"	d
+TFTP_BLOCK_SIZE	h/mon/montftp.h	8;"	d
+TFTP_DATA_HDR_SZ	h/mon/montftp.h	9;"	d
+TFTP_INIT_TID	h/mon/montftp.h	18;"	d
+TFTP_MY_TID	h/mon/montftp.h	19;"	d
+TFTP_REQ_SENT	h/mon/monitor.h	17;"	d
+TFTP_RETX	h/mon/monitor.h	21;"	d
+TFTP_TRY	h/mon/montftp.h	7;"	d
+TFTP_TYPE_ACK	h/mon/montftp.h	15;"	d
+TFTP_TYPE_DATA	h/mon/montftp.h	14;"	d
+TFTP_TYPE_ERROR	h/mon/montftp.h	16;"	d
+THA	h/mon/monarp.h	29;"	d
+TIF_CBREAK	h/tty.h	64;"	d
+TIF_EOF	h/tty.h	66;"	d
+TIF_EXCLUSIVE	h/tty.h	65;"	d
+TIF_NOBLOCK	h/tty.h	61;"	d
+TIF_NOECHO	h/tty.h	62;"	d
+TIF_RAW	h/tty.h	63;"	d
+TIMEOUT	h/kernel.h	38;"	d
+TIMEZONE	h/date.h	38;"	d
+TIME_OFFSET	h/mon/monbootp.h	99;"	d
+TIME_SERVER	h/mon/monbootp.h	101;"	d
+TOF_NOBLOCK	h/tty.h	70;"	d
+TOF_RAW	h/tty.h	72;"	d
+TOF_SYNC	h/tty.h	71;"	d
+TPA	h/mon/monarp.h	30;"	d
+TRUE	h/kernel.h	10;"	d
+TRUE	h/mon/monconf.h	6;"	d
+TTC_CPID	h/tty.h	76;"	d
+TTC_CUSER	h/tty.h	82;"	d
+TTC_GIF	h/tty.h	78;"	d
+TTC_GOF	h/tty.h	79;"	d
+TTC_NEXTC	h/tty.h	80;"	d
+TTC_SUSER	h/tty.h	81;"	d
+TTC_SYNC	h/tty.h	77;"	d
+TTY	compile/Makefile	/^TTY =	ttyalloc.c	ttycntl.c	ttygetc.c	ttyiin.c	\\$/;"	m
+TTYOBJ	compile/Makefile	/^TTYOBJ = ${TTY:%.c=%.o}$/;"	m
+TTYS_ALLOC	h/tty.h	57;"	d
+TTYS_FREE	h/tty.h	56;"	d
+UART_DLL	h/com.h	14;"	d
+UART_DLL	h/mon/moncom.h	14;"	d
+UART_DLM	h/com.h	15;"	d
+UART_DLM	h/mon/moncom.h	15;"	d
+UART_EFR	h/com.h	19;"	d
+UART_EFR	h/mon/moncom.h	19;"	d
+UART_EFR_CTS	h/com.h	99;"	d
+UART_EFR_CTS	h/mon/moncom.h	99;"	d
+UART_EFR_ENI	h/com.h	102;"	d
+UART_EFR_ENI	h/mon/moncom.h	102;"	d
+UART_EFR_RTS	h/com.h	100;"	d
+UART_EFR_RTS	h/mon/moncom.h	100;"	d
+UART_EFR_SCD	h/com.h	101;"	d
+UART_EFR_SCD	h/mon/moncom.h	101;"	d
+UART_FCR	h/com.h	18;"	d
+UART_FCR	h/mon/moncom.h	18;"	d
+UART_FCR6_R_TRIGGER_16	h/com.h	122;"	d
+UART_FCR6_R_TRIGGER_16	h/mon/moncom.h	122;"	d
+UART_FCR6_R_TRIGGER_24	h/com.h	123;"	d
+UART_FCR6_R_TRIGGER_24	h/mon/moncom.h	123;"	d
+UART_FCR6_R_TRIGGER_28	h/com.h	124;"	d
+UART_FCR6_R_TRIGGER_28	h/mon/moncom.h	124;"	d
+UART_FCR6_R_TRIGGER_8	h/com.h	121;"	d
+UART_FCR6_R_TRIGGER_8	h/mon/moncom.h	121;"	d
+UART_FCR6_T_TRIGGER_16	h/com.h	125;"	d
+UART_FCR6_T_TRIGGER_16	h/mon/moncom.h	125;"	d
+UART_FCR6_T_TRIGGER_24	h/com.h	127;"	d
+UART_FCR6_T_TRIGGER_24	h/mon/moncom.h	127;"	d
+UART_FCR6_T_TRIGGER_30	h/com.h	128;"	d
+UART_FCR6_T_TRIGGER_30	h/mon/moncom.h	128;"	d
+UART_FCR6_T_TRIGGER_8	h/com.h	126;"	d
+UART_FCR6_T_TRIGGER_8	h/mon/moncom.h	126;"	d
+UART_FCR_CLEAR_RCVR	h/com.h	112;"	d
+UART_FCR_CLEAR_RCVR	h/mon/moncom.h	112;"	d
+UART_FCR_CLEAR_XMIT	h/com.h	113;"	d
+UART_FCR_CLEAR_XMIT	h/mon/moncom.h	113;"	d
+UART_FCR_DMA_SELECT	h/com.h	114;"	d
+UART_FCR_DMA_SELECT	h/mon/moncom.h	114;"	d
+UART_FCR_ENABLE_FIFO	h/com.h	111;"	d
+UART_FCR_ENABLE_FIFO	h/mon/moncom.h	111;"	d
+UART_FCR_TRIGGER_1	h/com.h	116;"	d
+UART_FCR_TRIGGER_1	h/mon/moncom.h	116;"	d
+UART_FCR_TRIGGER_14	h/com.h	119;"	d
+UART_FCR_TRIGGER_14	h/mon/moncom.h	119;"	d
+UART_FCR_TRIGGER_4	h/com.h	117;"	d
+UART_FCR_TRIGGER_4	h/mon/moncom.h	117;"	d
+UART_FCR_TRIGGER_8	h/com.h	118;"	d
+UART_FCR_TRIGGER_8	h/mon/moncom.h	118;"	d
+UART_FCR_TRIGGER_MASK	h/com.h	115;"	d
+UART_FCR_TRIGGER_MASK	h/mon/moncom.h	115;"	d
+UART_IER	h/com.h	16;"	d
+UART_IER	h/mon/moncom.h	16;"	d
+UART_IER_ALLI	h/com.h	72;"	d
+UART_IER_ALLI	h/mon/moncom.h	72;"	d
+UART_IER_MSI	h/com.h	68;"	d
+UART_IER_MSI	h/mon/moncom.h	68;"	d
+UART_IER_RDI	h/com.h	71;"	d
+UART_IER_RDI	h/mon/moncom.h	71;"	d
+UART_IER_RLSI	h/com.h	69;"	d
+UART_IER_RLSI	h/mon/moncom.h	69;"	d
+UART_IER_THRI	h/com.h	70;"	d
+UART_IER_THRI	h/mon/moncom.h	70;"	d
+UART_IIR	h/com.h	17;"	d
+UART_IIR	h/mon/moncom.h	17;"	d
+UART_IIR_IID	h/com.h	59;"	d
+UART_IIR_IID	h/mon/moncom.h	59;"	d
+UART_IIR_MSI	h/com.h	60;"	d
+UART_IIR_MSI	h/mon/moncom.h	60;"	d
+UART_IIR_NO_INT	h/com.h	58;"	d
+UART_IIR_NO_INT	h/mon/moncom.h	58;"	d
+UART_IIR_RDI	h/com.h	62;"	d
+UART_IIR_RDI	h/mon/moncom.h	62;"	d
+UART_IIR_RLSI	h/com.h	63;"	d
+UART_IIR_RLSI	h/mon/moncom.h	63;"	d
+UART_IIR_THRI	h/com.h	61;"	d
+UART_IIR_THRI	h/mon/moncom.h	61;"	d
+UART_IN	h/com.h	131;"	d
+UART_IN	h/mon/moncom.h	131;"	d
+UART_LCR	h/com.h	21;"	d
+UART_LCR	h/mon/moncom.h	21;"	d
+UART_LCR_DLAB	h/com.h	33;"	d
+UART_LCR_DLAB	h/mon/moncom.h	33;"	d
+UART_LCR_EPAR	h/com.h	36;"	d
+UART_LCR_EPAR	h/mon/moncom.h	36;"	d
+UART_LCR_PARITY	h/com.h	37;"	d
+UART_LCR_PARITY	h/mon/moncom.h	37;"	d
+UART_LCR_SBC	h/com.h	34;"	d
+UART_LCR_SBC	h/mon/moncom.h	34;"	d
+UART_LCR_SPAR	h/com.h	35;"	d
+UART_LCR_SPAR	h/mon/moncom.h	35;"	d
+UART_LCR_STOP	h/com.h	38;"	d
+UART_LCR_STOP	h/mon/moncom.h	38;"	d
+UART_LCR_WLEN5	h/com.h	39;"	d
+UART_LCR_WLEN5	h/mon/moncom.h	39;"	d
+UART_LCR_WLEN6	h/com.h	40;"	d
+UART_LCR_WLEN6	h/mon/moncom.h	40;"	d
+UART_LCR_WLEN7	h/com.h	41;"	d
+UART_LCR_WLEN7	h/mon/moncom.h	41;"	d
+UART_LCR_WLEN8	h/com.h	42;"	d
+UART_LCR_WLEN8	h/mon/moncom.h	42;"	d
+UART_LSR	h/com.h	23;"	d
+UART_LSR	h/mon/moncom.h	23;"	d
+UART_LSR_BI	h/com.h	49;"	d
+UART_LSR_BI	h/mon/moncom.h	49;"	d
+UART_LSR_DR	h/com.h	53;"	d
+UART_LSR_DR	h/mon/moncom.h	53;"	d
+UART_LSR_FE	h/com.h	50;"	d
+UART_LSR_FE	h/mon/moncom.h	50;"	d
+UART_LSR_OE	h/com.h	52;"	d
+UART_LSR_OE	h/mon/moncom.h	52;"	d
+UART_LSR_PE	h/com.h	51;"	d
+UART_LSR_PE	h/mon/moncom.h	51;"	d
+UART_LSR_TEMT	h/com.h	47;"	d
+UART_LSR_TEMT	h/mon/moncom.h	47;"	d
+UART_LSR_THRE	h/com.h	48;"	d
+UART_LSR_THRE	h/mon/moncom.h	48;"	d
+UART_MCR	h/com.h	22;"	d
+UART_MCR	h/mon/moncom.h	22;"	d
+UART_MCR_DTR	h/com.h	80;"	d
+UART_MCR_DTR	h/mon/moncom.h	80;"	d
+UART_MCR_LOOP	h/com.h	76;"	d
+UART_MCR_LOOP	h/mon/moncom.h	76;"	d
+UART_MCR_OUT1	h/com.h	78;"	d
+UART_MCR_OUT1	h/mon/moncom.h	78;"	d
+UART_MCR_OUT2	h/com.h	77;"	d
+UART_MCR_OUT2	h/mon/moncom.h	77;"	d
+UART_MCR_RTS	h/com.h	79;"	d
+UART_MCR_RTS	h/mon/moncom.h	79;"	d
+UART_MSR	h/com.h	24;"	d
+UART_MSR	h/mon/moncom.h	24;"	d
+UART_MSR_ANY_DELTA	h/com.h	93;"	d
+UART_MSR_ANY_DELTA	h/mon/moncom.h	93;"	d
+UART_MSR_CTS	h/com.h	88;"	d
+UART_MSR_CTS	h/mon/moncom.h	88;"	d
+UART_MSR_DCD	h/com.h	85;"	d
+UART_MSR_DCD	h/mon/moncom.h	85;"	d
+UART_MSR_DCTS	h/com.h	92;"	d
+UART_MSR_DCTS	h/mon/moncom.h	92;"	d
+UART_MSR_DDCD	h/com.h	89;"	d
+UART_MSR_DDCD	h/mon/moncom.h	89;"	d
+UART_MSR_DDSR	h/com.h	91;"	d
+UART_MSR_DDSR	h/mon/moncom.h	91;"	d
+UART_MSR_DSR	h/com.h	87;"	d
+UART_MSR_DSR	h/mon/moncom.h	87;"	d
+UART_MSR_RI	h/com.h	86;"	d
+UART_MSR_RI	h/mon/moncom.h	86;"	d
+UART_MSR_TERI	h/com.h	90;"	d
+UART_MSR_TERI	h/mon/moncom.h	90;"	d
+UART_OUT	h/com.h	132;"	d
+UART_OUT	h/mon/moncom.h	132;"	d
+UART_RX	h/com.h	12;"	d
+UART_RX	h/mon/moncom.h	12;"	d
+UART_SCR	h/com.h	25;"	d
+UART_SCR	h/mon/moncom.h	25;"	d
+UART_TX	h/com.h	13;"	d
+UART_TX	h/mon/moncom.h	13;"	d
+U_HLEN	h/mon/monudp.h	8;"	d
+U_MAXLEN	h/mon/monudp.h	11;"	d
+VERBOSE	mon/monboot.c	20;"	d	file:
+WORD	h/kernel.h	/^typedef	int	WORD;		\/* maximum of (int, char *)		*\/$/;"	t
+XINU	compile/Makefile	/^XINU    =       .\/xinu$/;"	m
+XINU	h/mon/monbootp.h	83;"	d
+XOBJ	compile/Makefile	/^XOBJ = startup.o initialize.o intr.o clkint.o ctxsw.o$/;"	m
+Xtrap	sys/intr.S	/^Xtrap:$/;"	l
+YACC	config/Makefile	/^YACC	= \/usr\/bin\/bison -y     # Flag enables yacc-compatible filenames$/;"	m
+ZONE_CST	h/date.h	35;"	d
+ZONE_EST	h/date.h	34;"	d
+ZONE_MST	h/date.h	36;"	d
+ZONE_PST	h/date.h	37;"	d
+_3C905_CMD_ACKINTERRUPT	h/mon/mon3com.h	17;"	d
+_3C905_CMD_DNSTALL	h/mon/mon3com.h	10;"	d
+_3C905_CMD_DNUNSTALL	h/mon/mon3com.h	11;"	d
+_3C905_CMD_RXENABLE	h/mon/mon3com.h	13;"	d
+_3C905_CMD_RXRESET	h/mon/mon3com.h	8;"	d
+_3C905_CMD_SELWINDOW	h/mon/mon3com.h	7;"	d
+_3C905_CMD_SETINDICATION	h/mon/mon3com.h	18;"	d
+_3C905_CMD_SETINTERRUPT	h/mon/mon3com.h	19;"	d
+_3C905_CMD_SETRXFILTER	h/mon/mon3com.h	14;"	d
+_3C905_CMD_TXENABLE	h/mon/mon3com.h	12;"	d
+_3C905_CMD_TXRESET	h/mon/mon3com.h	9;"	d
+_3C905_CMD_UPSTALL	h/mon/mon3com.h	15;"	d
+_3C905_CMD_UPUNSTALL	h/mon/mon3com.h	16;"	d
+_3C905_FLG_CMDINPROGR	h/mon/mon3com.h	46;"	d
+_3C905_FLG_DNCOMPLETE	h/mon/mon3com.h	32;"	d
+_3C905_FLG_ERRTXJABBER	h/mon/mon3com.h	51;"	d
+_3C905_FLG_ERRTXMAXCOLL	h/mon/mon3com.h	49;"	d
+_3C905_FLG_ERRTXRECLAIM	h/mon/mon3com.h	47;"	d
+_3C905_FLG_ERRTXSTATUSOVF	h/mon/mon3com.h	48;"	d
+_3C905_FLG_ERRTXUNDERRUN	h/mon/mon3com.h	50;"	d
+_3C905_FLG_INTERRUPT	h/mon/mon3com.h	43;"	d
+_3C905_FLG_LASTFRAG	h/mon/mon3com.h	33;"	d
+_3C905_FLG_RNDUPDEFEAT	h/mon/mon3com.h	36;"	d
+_3C905_FLG_RXFALL	h/mon/mon3com.h	41;"	d
+_3C905_FLG_RXFBROADCAST	h/mon/mon3com.h	40;"	d
+_3C905_FLG_RXFINDIVIDUAL	h/mon/mon3com.h	38;"	d
+_3C905_FLG_RXFMULTICAST	h/mon/mon3com.h	39;"	d
+_3C905_FLG_RXHASHFILTER	h/mon/mon3com.h	42;"	d
+_3C905_FLG_TXCOMPLINT	h/mon/mon3com.h	44;"	d
+_3C905_FLG_TXINDICATE	h/mon/mon3com.h	31;"	d
+_3C905_FLG_UPCOMPLETE	h/mon/mon3com.h	35;"	d
+_3C905_FLG_UPCOMPLINT	h/mon/mon3com.h	45;"	d
+_3C905_FLG_UPERROR	h/mon/mon3com.h	34;"	d
+_3C905_FLG_UPSTALLED	h/mon/mon3com.h	37;"	d
+_3C905_MSK_INTERRUPTS	h/mon/mon3com.h	53;"	d
+_3C905_MSK_PKTLENGTH	h/mon/mon3com.h	56;"	d
+_3C905_MSK_RXFILTER	h/mon/mon3com.h	57;"	d
+_3C905_MSK_TXERROR	h/mon/mon3com.h	55;"	d
+_3C905_OFF_COMMAND	h/mon/mon3com.h	22;"	d
+_3C905_OFF_DNLISTPTR	h/mon/mon3com.h	24;"	d
+_3C905_OFF_INDICATIONENA	h/mon/mon3com.h	29;"	d
+_3C905_OFF_INTERRUPTENA	h/mon/mon3com.h	28;"	d
+_3C905_OFF_INTSTATUS	h/mon/mon3com.h	21;"	d
+_3C905_OFF_RXFILTER	h/mon/mon3com.h	27;"	d
+_3C905_OFF_TXSTATUS	h/mon/mon3com.h	23;"	d
+_3C905_OFF_UPLISTPTR	h/mon/mon3com.h	26;"	d
+_3C905_OFF_UPPKTSTATUS	h/mon/mon3com.h	25;"	d
+_3C905_PCI_IOBASE	h/mon/mon3com.h	59;"	d
+_3C905_PCI_IRQ	h/mon/mon3com.h	61;"	d
+_3C905_PCI_MEMBASE	h/mon/mon3com.h	60;"	d
+_3C905_RXRING	h/mon/mon3com.h	70;"	d
+_3C905_STT_RECLAIM	h/mon/mon3com.h	63;"	d
+_3C905_TXRING	h/mon/mon3com.h	69;"	d
+_3CCMD	h/mon/mon3com.h	65;"	d
+_3COM_3C905_DEVICE_ID	h/mon/mon3com.h	73;"	d
+_3COM_VENDOR_ID	h/mon/mon3com.h	72;"	d
+_3CSEL	h/mon/mon3com.h	66;"	d
+_3CWIN	h/mon/mon3com.h	67;"	d
+_BUFPOOL_H_	h/bufpool.h	4;"	d
+_C	h/ctype.h	14;"	d
+_COM_H_	h/com.h	7;"	d
+_CTYPE_H_	h/ctype.h	6;"	d
+_D	h/ctype.h	11;"	d
+_DATE_H_	h/date.h	4;"	d
+_DNS_H	h/dns.h	2;"	d
+_I386_H_	h/i386.h	4;"	d
+_ICU_H_	h/icu.h	4;"	d
+_INTEL_H_	h/intel.h	4;"	d
+_INTEL_PRO100_DEVICE_ID	h/intel.h	10;"	d
+_INTEL_PRO100_DEVICE_ID	h/mon/monintel.h	10;"	d
+_INTEL_PRO_100	h/intel.h	7;"	d
+_INTEL_PRO_100	h/mon/monintel.h	7;"	d
+_INTEL_VENDOR_ID	h/intel.h	9;"	d
+_INTEL_VENDOR_ID	h/mon/monintel.h	9;"	d
+_IO_H_	h/io.h	4;"	d
+_KERNEL_H_	h/kernel.h	4;"	d
+_L	h/ctype.h	9;"	d
+_MARK_H_	h/mark.h	4;"	d
+_MEM_H_	h/mem.h	4;"	d
+_MON3COM_H_	h/mon/mon3com.h	2;"	d
+_MONARP_H_	h/mon/monarp.h	2;"	d
+_MONBOOTP_H_	h/mon/monbootp.h	2;"	d
+_MONCOM_H_	h/mon/moncom.h	2;"	d
+_MONCONF_H_	h/mon/monconf.h	2;"	d
+_MONEEPRO_H_	h/mon/moneepro.h	2;"	d
+_MONETHER_H_	h/mon/monether.h	2;"	d
+_MONI386_H_	h/mon/moni386.h	2;"	d
+_MONINTEL_H_	h/mon/monintel.h	2;"	d
+_MONIP_H_	h/mon/monip.h	2;"	d
+_MONITOR_H_	h/mon/monitor.h	2;"	d
+_MONNETIF_H_	h/mon/monnetif.h	2;"	d
+_MONNETWORK_H_	h/mon/monnetwork.h	2;"	d
+_MONPCI_H_	h/mon/monpci.h	2;"	d
+_MONSYSTYPES_H_	h/mon/monsystypes.h	2;"	d
+_MONTFTP_H_	h/mon/montftp.h	2;"	d
+_MONUDP_H_	h/mon/monudp.h	2;"	d
+_N	h/ctype.h	10;"	d
+_NFILE	h/proc.h	13;"	d
+_P	h/ctype.h	13;"	d
+_PCI_H	h/pci.h	2;"	d
+_PING_H_	h/ping.h	2;"	d
+_PROC_H_	h/proc.h	4;"	d
+_QUEUE_H_	h/q.h	4;"	d
+_S	h/ctype.h	12;"	d
+_SEM_H_	h/sem.h	4;"	d
+_SLEEP_H_	h/sleep.h	4;"	d
+_TTY_H_	h/tty.h	4;"	d
+_TYPES_	h/systypes.h	7;"	d
+_U	h/ctype.h	8;"	d
+_X	h/ctype.h	15;"	d
+_Xint0	sys/xint.s	/^_Xint0:	pushl	%ebp$/;"	l
+_Xint1	sys/xint.s	/^_Xint1:	pushl	%ebp$/;"	l
+_Xint2	sys/xint.s	/^_Xint2:	pushl	%ebp$/;"	l
+_Xint3	sys/xint.s	/^_Xint3:	pushl	%ebp$/;"	l
+_Xint4	sys/xint.s	/^_Xint4:	pushl	%ebp$/;"	l
+_Xint5	sys/xint.s	/^_Xint5:	pushl	%ebp$/;"	l
+_Xint6	sys/xint.s	/^_Xint6:	pushl	%ebp$/;"	l
+_Xint7	sys/xint.s	/^_Xint7:	pushl	%ebp$/;"	l
+_Xint8	sys/xint.s	/^_Xint8:	pushl	%ebp$/;"	l
+_Xint9	sys/xint.s	/^_Xint9:	pushl	%ebp$/;"	l
+___divsi3	sys/startup.S	/^___divsi3:$/;"	l
+___udivsi3	sys/startup.S	/^___udivsi3:$/;"	l
+_bootdev	sys/startup.S	/^_bootdev:	.long	0$/;"	l
+_ctype_	lib/libxc/ctype_.c	/^char _ctype_[] = {$/;"	v
+_cyloffset	sys/startup.S	/^_cyloffset:	.long	0$/;"	l
+_doprnt	lib/libxc/doprnt.c	/^_doprnt(fmt, args, func, farg)	\/* adapted by S. Salisbury, Purdue U.	*\/$/;"	f
+_doscan	lib/libxc/doscan.c	/^_doscan(fmt, argp, getch, ungetch, arg1, arg2 )$/;"	f
+_getccl	lib/libxc/doscan.c	/^char *_getccl(char *s)$/;"	f
+_innum	lib/libxc/doscan.c	/^_innum(ptr, type, len, size, getch, ungetch, arg1, arg2, eofptr)$/;"	f
+_instr	lib/libxc/doscan.c	/^_instr(ptr, type, len, getch, ungetch, arg1, arg2, eofptr)$/;"	f
+_mkinit	sys/mark.c	/^int _mkinit()$/;"	f
+_modf	lib/libxc/float.s	/^_modf:$/;"	l
+_physadr	h/mon/monsystypes.h	/^typedef	struct	_physadr { int r[1]; } *physadr;$/;"	s
+_physadr	h/mon/monsystypes.h	/^typedef	struct	_physadr { short r[1]; } *physadr;$/;"	s
+_physadr	h/systypes.h	/^typedef	struct	_physadr { int r[1]; } *physadr;$/;"	s
+_physadr	h/systypes.h	/^typedef	struct	_physadr { short r[1]; } *physadr;$/;"	s
+_prt10	lib/libxc/doprnt.c	/^LOCAL	_prt10(num,str)$/;"	f
+_prt16	lib/libxc/doprnt.c	/^LOCAL	_prt16(num,str)$/;"	f
+_prt2	lib/libxc/doprnt.c	/^LOCAL	_prt2(num,str)$/;"	f
+_prt8	lib/libxc/doprnt.c	/^LOCAL	_prt8(num,str)$/;"	f
+_prtl10	lib/libxc/doprnt.c	/^LOCAL	_prtl10(num,str)$/;"	f
+_prtl16	lib/libxc/doprnt.c	/^LOCAL	_prtl16(num,str)$/;"	f
+_prtl2	lib/libxc/doprnt.c	/^LOCAL	_prtl2(num,str)$/;"	f
+_prtl8	lib/libxc/doprnt.c	/^LOCAL	_prtl8(num,str)$/;"	f
+_quad	h/mon/monsystypes.h	/^typedef	struct	_quad { long val[2]; } quad;$/;"	s
+_quad	h/systypes.h	/^typedef	struct	_quad { long val[2]; } quad;$/;"	s
+_rtcin	sys/startup.S	/^_rtcin:	movl	4(%esp),%eax$/;"	l
+_sctab	lib/libxc/doscan.c	/^char	_sctab[128] = {$/;"	v
+a_expt	lib/libxc/float.s	/^a_expt:	.word	0$/;"	l
+a_manh	lib/libxc/float.s	/^a_manh:	.long	0$/;"	l
+a_manl	lib/libxc/float.s	/^a_manl:	.long	0$/;"	l
+a_sign	lib/libxc/float.s	/^a_sign:	.word	0$/;"	l
+abs	lib/libxc/abs.c	/^abs(int arg)$/;"	f
+add	lib/libxc/float.s	/^add:$/;"	l
+adde	lib/libxc/float.s	/^adde:	movl	d2,a0@(MANH)		|store result$/;"	l
+addr	h/i386.h	/^	unsigned int	addr : 32;$/;"	m	struct:segtr
+addr	h/mon/moni386.h	/^	unsigned int	addr : 32;$/;"	m	struct:segtr
+address	mon/monpci.c	/^    unsigned long address;$/;"	m	struct:__anon1	file:
+address	mon/monpci.c	/^    unsigned long address;$/;"	m	struct:__anon2	file:
+address	sys/pci.c	/^    unsigned long address;$/;"	m	struct:__anon3	file:
+address	sys/pci.c	/^    unsigned long address;$/;"	m	struct:__anon4	file:
+ae_hwa	h/mon/monarp.h	/^	char	ae_hwa[MAXHWALEN];	\/* Hardware address 		*\/$/;"	m	struct:arpentry
+ae_pep	h/mon/monarp.h	/^    	struct ep *ae_pep;	\/* packet waiting			*\/$/;"	m	struct:arpentry	typeref:struct:arpentry::ep
+ae_pra	h/mon/monarp.h	/^	char	ae_pra[MAXPRALEN];	\/* Protocol address 		*\/$/;"	m	struct:arpentry
+ae_state	h/mon/monarp.h	/^	short	ae_state;	\/* state of this entry (see below)	*\/$/;"	m	struct:arpentry
+afadd	lib/libxc/float.s	/^afadd:$/;"	l
+afaddf	lib/libxc/float.s	/^afaddf:$/;"	l
+afdiv	lib/libxc/float.s	/^afdiv:$/;"	l
+afdivf	lib/libxc/float.s	/^afdivf:$/;"	l
+afloat	lib/libxc/float.s	/^afloat:				|internal-a floating representation$/;"	l
+afmul	lib/libxc/float.s	/^afmul:$/;"	l
+afmulf	lib/libxc/float.s	/^afmulf:$/;"	l
+afsub	lib/libxc/float.s	/^afsub:$/;"	l
+afsubf	lib/libxc/float.s	/^afsubf:$/;"	l
+aglobal	sys/ctxsw.S	/^aglobal:	.word	0$/;"	l
+aldiv	lib/libxc/aldiv.s	/^aldiv:	link	a6,#0$/;"	l
+almul	lib/libxc/almul.s	/^almul:	link	a6,#0$/;"	l
+alrem	lib/libxc/alrem.s	/^alrem:	link	a6,#0$/;"	l
+ar_addrs	h/mon/monarp.h	/^	char	ar_addrs[1];	\/* sender and target hw & proto addrs	*\/$/;"	m	struct:arp
+ar_hwlen	h/mon/monarp.h	/^	char	ar_hwlen;	\/* hardware address length		*\/$/;"	m	struct:arp
+ar_hwtype	h/mon/monarp.h	/^	short	ar_hwtype;	\/* hardware type			*\/$/;"	m	struct:arp
+ar_op	h/mon/monarp.h	/^	short	ar_op;		\/* ARP operation (see list above)	*\/$/;"	m	struct:arp
+ar_prlen	h/mon/monarp.h	/^	char	ar_prlen;	\/* protocol address length		*\/$/;"	m	struct:arp
+ar_prtype	h/mon/monarp.h	/^	short	ar_prtype;	\/* protocol type			*\/$/;"	m	struct:arp
+arg_count	h/ping.h	/^	u_int arg_count;$/;"	m	struct:ping_args
+arg_dst	h/ping.h	/^	IPaddr arg_dst;$/;"	m	struct:ping_args
+arg_flood	h/ping.h	/^	int arg_flood;$/;"	m	struct:ping_args
+arg_id	h/ping.h	/^	u_short arg_id;$/;"	m	struct:ping_args
+arg_interval	h/ping.h	/^	int arg_interval;$/;"	m	struct:ping_args
+arg_pattern	h/ping.h	/^	u_char arg_pattern[PINGMAX_PLEN];$/;"	m	struct:ping_args
+arg_plen	h/ping.h	/^	int arg_plen;$/;"	m	struct:ping_args
+arg_size	h/ping.h	/^	u_short arg_size;$/;"	m	struct:ping_args
+arg_ttl	h/ping.h	/^	u_char arg_ttl;$/;"	m	struct:ping_args
+arp	h/mon/monarp.h	/^struct	arp	{$/;"	s
+arpentry	h/mon/monarp.h	/^struct	arpentry {		\/* format of entry in ARP cache		*\/$/;"	s
+atof	lib/libxc/atof.c	/^double atof(char *p)$/;"	f
+atoi	lib/libxc/atoi.c	/^atoi(char *p)$/;"	f
+atol	lib/libxc/atol.c	/^long atol(char *p)$/;"	f
+attribute	config/config.y	/^attribute	:	CSR number$/;"	l
+auldiv	lib/libxc/auldiv.s	/^auldiv:	link	a6,#0$/;"	l
+aulmul	lib/libxc/aulmul.s	/^aulmul:	link	a6,#0$/;"	l
+aulrem	lib/libxc/aulrem.s	/^aulrem:	link	a6,#0$/;"	l
+b_expt	lib/libxc/float.s	/^b_expt:	.word	0$/;"	l
+b_manh	lib/libxc/float.s	/^b_manh:	.long	0$/;"	l
+b_manl	lib/libxc/float.s	/^b_manl:	.long	0$/;"	l
+b_sign	lib/libxc/float.s	/^b_sign:	.word	0$/;"	l
+bcopy	sys/startup.S	/^bcopy:$/;"	l
+bfloat	lib/libxc/float.s	/^bfloat:				|internal-b floating representation$/;"	l
+bios32	h/mon/monpci.h	/^typedef struct bios32 {$/;"	s
+bios32	h/mon/monpci.h	/^} bios32;$/;"	t	typeref:struct:bios32
+bios32	h/pci.h	/^typedef struct bios32 {$/;"	s
+bios32	h/pci.h	/^} bios32;$/;"	t	typeref:struct:bios32
+bios32_entry	h/mon/monpci.h	/^    unsigned long   bios32_entry;   \/* 32 bit physical address for$/;"	m	struct:bios32
+bios32_entry	h/pci.h	/^    unsigned long   bios32_entry;   \/* 32 bit physical address for$/;"	m	struct:bios32
+bios32_entry	sys/pci.c	/^static unsigned long bios32_entry = 0;$/;"	v	file:
+bios32_indirect	sys/pci.c	/^} bios32_indirect = { 0, 0 + 5*0x08 \/* 0x10  KERNEL_CS *\/ };$/;"	v	typeref:struct:__anon3	file:
+bios32_service	sys/pci.c	/^static unsigned long bios32_service(unsigned long service)$/;"	f	file:
+bios32ptr	sys/pci.c	/^static bios32	*bios32ptr;	\/* pointer to the BIOS 32 structure *\/$/;"	v	file:
+blkcmp	sys/blkcmp.c	/^int blkcmp(void *p1, void *p2, int len)$/;"	f
+blkcopy	lib/libxc/blkcopy.s	/^blkcopy:$/;"	l
+blkequ	sys/blkequ.c	/^int blkequ(void *p1, void *p2, int nbytes)$/;"	f
+block	h/mon/montftp.h	/^    short block;$/;"	m	struct:tftp_ack
+block	h/mon/montftp.h	/^    short block;$/;"	m	struct:tftp_data
+blt	lib/libxc/blt.s	/^blt:	movl	sp@(4),a0	|destination$/;"	l
+boot_xinu	mon/monboot.c	/^int boot_xinu()$/;"	f
+bootp_msg	h/mon/monbootp.h	/^struct bootp_msg {$/;"	s
+bpmark	sys/poolinit.c	/^MARKER	bpmark;				\/* self initializing mark	*\/$/;"	v
+bpmaxused	h/bufpool.h	/^	int	bpmaxused;		\/* max ever in use		*\/$/;"	m	struct:bpool
+bpnext	h/bufpool.h	/^	char	*bpnext;		\/* pointer to next free buffer	*\/$/;"	m	struct:bpool
+bpool	h/bufpool.h	/^struct	bpool	{			\/* Description of a single pool	*\/$/;"	s
+bpsem	h/bufpool.h	/^	int	bpsem;			\/* semaphore that counts buffers*\/$/;"	m	struct:bpool
+bpsize	h/bufpool.h	/^	int	bpsize;			\/* size of buffers in this pool	*\/$/;"	m	struct:bpool
+bptab	sys/poolinit.c	/^struct	bpool	bptab[NBPOOLS];$/;"	v	typeref:struct:bpool
+bptotal	h/bufpool.h	/^	int	bptotal;		\/* # buffers this pool		*\/$/;"	m	struct:bpool
+brtab	com/comcntl.c	/^int brtab[] = { 50, 75, 110, 134, 150, 300, 600, 1200, 1800, 2000, 2400,$/;"	v
+buffer	h/mon/mon3com.h	/^	void*		buffer;$/;"	m	struct:eth_pd
+bzero	lib/libxc/bzero.c	/^void bzero(void *p, int len)$/;"	f
+bzero	sys/startup.S	/^bzero:$/;"	l
+cPP	compile/Makefile	/^cPP     =       \/usr\/bin\/gcc -E$/;"	m
+caddr_t	h/mon/monsystypes.h	/^typedef	char *	caddr_t;$/;"	t
+caddr_t	h/systypes.h	/^typedef	char *	caddr_t;$/;"	t
+chaddr	h/mon/monbootp.h	/^    unsigned char chaddr[SZCHADDR];	\/* client hardware address	*\/$/;"	m	struct:bootp_msg
+check_board	mon/ethinit.c	/^static int check_board(u_short iobase)$/;"	f	file:
+check_mem_size	mon/ethinit.c	/^static int check_mem_size(u_short iobase)$/;"	f	file:
+check_pcibios	sys/pci.c	/^SYSCALL check_pcibios(void)$/;"	f
+checksum	h/mon/monpci.h	/^    unsigned char   checksum;	    \/* sum of all bytes should be 0      *\/$/;"	m	struct:bios32
+checksum	h/pci.h	/^    unsigned char   checksum;	    \/* sum of all bytes should be 0      *\/$/;"	m	struct:bios32
+chprio	sys/chprio.c	/^SYSCALL chprio(int pid, int newprio)$/;"	f
+ciaddr	h/mon/monbootp.h	/^    long ciaddr;			\/* client IP address		*\/$/;"	m	struct:bootp_msg
+cl1	sys/clkint.S	/^cl1:$/;"	l
+clear	lib/libxc/clear.s	/^clear:	movl	sp@(4),d1	|p$/;"	l
+cli	h/mon/monpci.h	38;"	d
+cli	h/pci.h	38;"	d
+clkdiff	sys/clkinit.c	/^int     clkdiff;		\/* deferred clock ticks			*\/$/;"	v
+clkinit	sys/clkinit.c	/^void clkinit()$/;"	f
+clkint	sys/clkint.S	/^clkint:$/;"	l
+clkruns	sys/clkinit.c	/^int	clkruns = FALSE;	\/* no clock configured; be sure sleep	*\/$/;"	v
+clkruns	sys/clkinit.c	/^int	clkruns;		\/* set TRUE iff clock exists by setclkr	*\/$/;"	v
+clktest	sys/clkinit.c	/^int clktest()$/;"	f
+clktime	sys/clkinit.c	/^unsigned long clktime = 0;	\/* current time in seconds since 1\/1\/70	*\/$/;"	v
+clmutex	sys/clkinit.c	/^int	clmutex;		\/* mutual exclusion for time-of-day	*\/$/;"	v
+clockq	sys/clkinit.c	/^int     clockq;			\/* head of queue of sleeping processes  *\/$/;"	v
+close	sys/close.c	/^DEVCALL close(int descrp)$/;"	f
+clpreem	sys/clkint.S	/^clpreem:	decl	preempt$/;"	l
+clret	mon/monclkint.S	/^clret:$/;"	l
+clret	sys/clkint.S	/^clret:$/;"	l
+clrl	lib/libxc/aulmul.s	/^	clrl	d0$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d0			|  than or equal to zero$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d0			|clear d0$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d0			|flag to getargs$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d0			|if zero - clear sign and$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d0$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d1			|  clear d0,d1$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d1$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d2			|clear$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d2$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d3			|  summation registers$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d3$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d4			|clear quotient$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d5			|  for multiply$/;"	d
+clrl	lib/libxc/float.s	/^	clrl	d5			|  register set$/;"	d
+clrl	lib/libxc/setjmp.s	/^	clrl	d0		|return 0$/;"	d
+clrl	lib/libxc/ulmul.s	/^	clrl	d0$/;"	d
+clrw	lib/libxc/aldiv.s	/^	clrw	d0		|yes, divide dividend$/;"	d
+clrw	lib/libxc/almul.s	/^	clrw	d1		|   (ahi*blo + alo*bhi)*(2**16)$/;"	d
+clrw	lib/libxc/alrem.s	/^	clrw	d0		|d0 = $/;"	d
+clrw	lib/libxc/alrem.s	/^	clrw	d0		|d0 =$/;"	d
+clrw	lib/libxc/auldiv.s	/^	clrw	d0		|divide dividend$/;"	d
+clrw	lib/libxc/aulmul.s	/^	clrw	d1		|   (ahi*blo + alo*bhi)*(2**16)$/;"	d
+clrw	lib/libxc/aulrem.s	/^	clrw	d0		|d0 = $/;"	d
+clrw	lib/libxc/aulrem.s	/^	clrw	d0		|d0 =$/;"	d
+clrw	lib/libxc/float.s	/^	clrw	d0			|flag to getargs$/;"	d
+clrw	lib/libxc/float.s	/^	clrw	d0			|zero shift count$/;"	d
+clrw	lib/libxc/ldiv.s	/^	clrw	d0		|divide dividend$/;"	d
+clrw	lib/libxc/lmul.s	/^	clrw	d1		|   (ahi*blo + alo*bhi)*(2**16)$/;"	d
+clrw	lib/libxc/lrem.s	/^	clrw	d0		|d0 = $/;"	d
+clrw	lib/libxc/lrem.s	/^	clrw	d0		|d0 =$/;"	d
+clrw	lib/libxc/ulmul.s	/^	clrw	d1		|   (ahi*blo + alo*bhi)*(2**16)$/;"	d
+clrw	lib/libxc/ulrem.s	/^	clrw	d0		|d0 = $/;"	d
+clrw	lib/libxc/ulrem.s	/^	clrw	d0		|d0 =$/;"	d
+com_buf	h/com.h	/^	unsigned char	com_buf[COMBUFSZ];	\/* raw output buffer	*\/$/;"	m	struct:comsoft
+com_buf	h/mon/moncom.h	/^	unsigned char	com_buf[COMBUFSZ];	\/* raw output buffer	*\/$/;"	m	struct:comsoft
+com_count	h/com.h	/^	unsigned char	com_count;		\/* count in buffer	*\/$/;"	m	struct:comsoft
+com_count	h/mon/moncom.h	/^	unsigned char	com_count;		\/* count in buffer	*\/$/;"	m	struct:comsoft
+com_osema	h/com.h	/^	int		com_osema;		\/* output semaphore	*\/$/;"	m	struct:comsoft
+com_osema	h/mon/moncom.h	/^	int		com_osema;		\/* output semaphore	*\/$/;"	m	struct:comsoft
+com_pdev	h/com.h	/^	struct devsw	*com_pdev;		\/* devsw pointer	*\/$/;"	m	struct:comsoft	typeref:struct:comsoft::devsw
+com_pdev	h/mon/moncom.h	/^	struct devsw	*com_pdev;		\/* devsw pointer	*\/$/;"	m	struct:comsoft	typeref:struct:comsoft::devsw
+com_start	h/com.h	/^	unsigned char	com_start;		\/* start of buffer	*\/$/;"	m	struct:comsoft
+com_start	h/mon/moncom.h	/^	unsigned char	com_start;		\/* start of buffer	*\/$/;"	m	struct:comsoft
+comcntl	com/comcntl.c	/^int comcntl(struct devsw * pdev, int func, char * addr)$/;"	f
+comdump	com/cominit.c	/^int comdump(int csr)$/;"	f
+comflush	com/comoutput.c	/^int comflush(struct devsw * pdev)$/;"	f
+comgetc	com/comgetc.c	/^int comgetc(struct devsw * pdev)$/;"	f
+comiin	com/comiin.c	/^INTPROC	comiin(struct comsoft * pcom, unsigned char ch)$/;"	f
+cominit	com/cominit.c	/^int cominit(struct devsw * pdev)$/;"	f
+cominput	com/cominput.c	/^INTPROC cominput(unsigned int ch)$/;"	f
+comint	com/comint.S	/^comint:$/;"	l
+comintr	com/comintr.c	/^int comintr()$/;"	f
+comprobe	com/cominit.c	/^int comprobe(int csr)$/;"	f
+computc	com/comoutput.c	/^int computc(pdev, c)$/;"	f
+comread	com/comgetc.c	/^int comread(struct devsw * pdev, char *  buf, int count)$/;"	f
+comsoft	h/com.h	/^struct comsoft {$/;"	s
+comsoft	h/mon/moncom.h	/^struct comsoft {$/;"	s
+comsputc	com/comoutput.c	/^int comsputc(struct devsw * pdev, unsigned char c)$/;"	f
+comtab	com/cominit.c	/^struct comsoft	comtab[Nserial];$/;"	v	typeref:struct:comsoft
+comtest	com/cominit.c	/^int comtest()$/;"	f
+comwrite	com/comoutput.c	/^int comwrite(struct devsw * pdev, char * buf, int count)$/;"	f
+comwstrt	com/comintr.c	/^int comwstrt(struct comsoft *pcom, int csr)$/;"	f
+config_593	mon/ethinit.c	/^static int config_593(u_short iobase)$/;"	f	file:
+congetc	com/comread.c	/^int congetc(struct devsw *devptr )$/;"	f
+conread	com/comread.c	/^int conread(struct devsw * devptr, char * buff, int count)$/;"	f
+console_dev	sys/initialize.c	/^int	console_dev;		\/* console device			*\/$/;"	v
+control	sys/control.c	/^DEVCALL	control(int descrp, int func, int arg1, int arg2)$/;"	f
+count10	sys/clkinit.c	/^int	count10;		\/* counts in 10ths of second 10-0	*\/$/;"	v
+count100	mon/monclkint.S	/^count100:	.word	100$/;"	l
+count1000	sys/clkint.S	/^count1000:	.word	1000$/;"	l
+count6	sys/clkinit.c	/^int	count6;			\/* counts in 60ths of a second 6-0	*\/$/;"	v
+cpudelay	sys/startup.S	/^cpudelay:	.long	1$/;"	l
+create	sys/create.c	/^SYSCALL create(procaddr,ssize,priority,name,nargs,args)$/;"	f
+ctr1000	sys/clkinit.c	/^unsigned long	ctr1000;	\/* counts in 1000ths of second 0-INF	*\/$/;"	v
+ctxsw	sys/ctxsw.S	/^ctxsw:$/;"	l
+currSP	sys/resched.c	/^unsigned long currSP;	\/* REAL sp of current process *\/$/;"	v
+currpid	sys/initialize.c	/^int	currpid;		\/* id of currently running process	*\/$/;"	v
+cvt	lib/libxc/ecvt.c	/^static char *cvt(double arg, int ndigits, int *decpt, int *sign, int eflag)$/;"	f	file:
+daddr_t	h/mon/monsystypes.h	/^typedef	long	daddr_t;$/;"	t
+daddr_t	h/systypes.h	/^typedef	long	daddr_t;$/;"	t
+data	h/mon/montftp.h	/^    char data[512];$/;"	m	struct:tftp_data
+data	h/mon/montftp.h	/^    char data[512];$/;"	m	struct:tftp_req
+datinfo	h/date.h	/^struct	datinfo	{$/;"	s
+defclk	sys/clkinit.c	/^int     defclk;			\/* non-zero, then deferring clock count *\/$/;"	v
+defevec	sys/intr.S	/^defevec:$/;"	l
+delay	sys/initialize.c	/^int delay(int n)$/;"	f
+delchar	tty/ttyiin.c	/^static int delchar(struct tty *ptty)$/;"	f	file:
+delword	tty/ttyiin.c	/^static int delword(struct tty *ptty)$/;"	f	file:
+deq	sys/gpq.c	/^char *deq(int q)$/;"	f
+dequeue	sys/queue.c	/^int dequeue(int item)$/;"	f
+descriptor	config/config.y	/^descriptor	:	fspec attribute.list$/;"	l
+dev_3c905	h/mon/mon3com.h	/^struct dev_3c905 {$/;"	s
+dev_t	h/mon/monsystypes.h	/^typedef	short	dev_t;$/;"	t
+dev_t	h/systypes.h	/^typedef	short	dev_t;$/;"	t
+devheader	config/config.y	/^devheader	:	ON id$/;"	l
+devicedescriptors	config/config.y	/^devicedescriptors	:	\/**\/$/;"	l
+devicetypes	config/config.y	/^devicetypes	:	ftypes DEFBRK$/;"	l
+devtab	sys/conf.c	/^struct	devsw	devtab[NDEVS] = {$/;"	v	typeref:struct:devsw
+dfltchars	tty/ttynew.c	/^struct tchars  dfltchars = {$/;"	v	typeref:struct:tchars
+disable	sys/intr.S	/^disable:$/;"	l
+div	lib/libxc/float.s	/^div:$/;"	l
+dive	lib/libxc/float.s	/^dive:	subql	#4,a0			|align a0 to mantissa$/;"	l
+dn_acount	h/dns.h	/^	short dn_acount;$/;"	m	struct:dns
+dn_data	h/dns.h	/^	char  dn_data[1];$/;"	m	struct:dns
+dn_dcount	h/dns.h	/^	short dn_dcount;$/;"	m	struct:dns
+dn_id	h/dns.h	/^	short dn_id;$/;"	m	struct:dns
+dn_ncount	h/dns.h	/^	short dn_ncount;$/;"	m	struct:dns
+dn_opparm	h/dns.h	/^	short dn_opparm;$/;"	m	struct:dns
+dn_qcount	h/dns.h	/^	short dn_qcount;$/;"	m	struct:dns
+dname	config/config.y	/^dname		:	id$/;"	l
+dns	h/dns.h	/^struct dns {$/;"	s
+dog_timeout	sys/clkinit.c	/^dog_timeout()$/;"	f
+dt_mnam	h/date.h	/^	char	*dt_mnam[12];$/;"	m	struct:datinfo
+dt_msize	h/date.h	/^	int	dt_msize[12];$/;"	m	struct:datinfo
+ebp	sys/stacktrace.c	/^static unsigned long	*ebp;$/;"	v	file:
+echo	tty/ttyiin.c	/^static int echo(struct tty *ptty, unsigned char ch)$/;"	f	file:
+ecvt	lib/libxc/ecvt.c	/^char *ecvt(double arg, int ndigits, int *decpt, int *sign)$/;"	f
+ed_bcast	h/mon/monether.h	73;"	d
+ed_iobase	h/mon/monether.h	/^    unsigned short      ed_iobase;$/;"	m	struct:ethdev
+ed_irq	h/mon/monether.h	/^    unsigned short      ed_irq;$/;"	m	struct:ethdev
+ed_mem_size	h/mon/monether.h	/^    unsigned long       ed_mem_size;    \/* on-board memory size         *\/$/;"	m	struct:ethdev
+ed_outq	h/mon/monether.h	74;"	d
+ed_paddr	h/mon/monether.h	72;"	d
+ed_rx_start	h/mon/monether.h	/^    unsigned short      ed_rx_start;    \/* start of the RX chain        *\/$/;"	m	struct:ethdev
+ed_rxbuf_size	h/mon/monether.h	/^    unsigned short      ed_rxbuf_size;  \/* RX buffer size               *\/$/;"	m	struct:ethdev
+ed_tx_chain_bit	h/mon/monether.h	/^    unsigned short      ed_tx_chain_bit;\/* position to set chain bit	*\/$/;"	m	struct:ethdev
+ed_tx_chain_cnt	h/mon/monether.h	/^    unsigned short      ed_tx_chain_cnt;\/* chain count                  *\/$/;"	m	struct:ethdev
+ed_tx_end	h/mon/monether.h	/^    unsigned short      ed_tx_end;      \/* end of the TX chain          *\/$/;"	m	struct:ethdev
+ed_tx_start	h/mon/monether.h	/^    unsigned short      ed_tx_start;    \/* start of the TX chain        *\/$/;"	m	struct:ethdev
+ed_txbuf_size	h/mon/monether.h	/^    unsigned short      ed_txbuf_size;  \/* TX buffer size               *\/$/;"	m	struct:ethdev
+edc_bcast	h/mon/monether.h	/^    Eaddr		 edc_bcast;$/;"	m	struct:etdev_comm
+edc_outq	h/mon/monether.h	/^    int		 	 edc_outq;$/;"	m	struct:etdev_comm
+edc_paddr	h/mon/monether.h	/^    Eaddr		 edc_paddr;	\/* hardware address		*\/$/;"	m	struct:etdev_comm
+eddev_comm	h/mon/monether.h	/^    struct etdev_comm   eddev_comm;     \/* common part                  *\/$/;"	m	struct:ethdev	typeref:struct:ethdev::etdev_comm
+eep_probe	mon/ethinit.c	/^static int eep_probe(struct ethdev *ped, u_short iobase)$/;"	f	file:
+eep_xintr	mon/ethintr.c	/^static int eep_xintr(struct ethdev *ped, u_short iobase)$/;"	f	file:
+eh	h/mon/monether.h	/^struct	eh {			\/* ethernet header			*\/$/;"	s
+eh_dst	h/mon/monether.h	/^	Eaddr	eh_dst;		\/* destination host address		*\/$/;"	m	struct:eh
+eh_src	h/mon/monether.h	/^	Eaddr	eh_src;		\/* source host address			*\/$/;"	m	struct:eh
+eh_type	h/mon/monether.h	/^	unsigned short	eh_type;\/* Ethernet packet type (see below)	*\/$/;"	m	struct:eh
+ehx	h/mon/monether.h	/^struct  ehx {                   \/* Xinu extended header                 *\/$/;"	s
+ehx_ifn	h/mon/monether.h	/^	short   ehx_ifn;        \/* originating interface number         *\/$/;"	m	struct:ehx
+ehx_len	h/mon/monether.h	/^	short   ehx_len;        \/* length of the packet                 *\/$/;"	m	struct:ehx
+ehx_nexthop	h/mon/monether.h	/^	IPaddr  ehx_nexthop;    \/* nexthop IP address                   *\/$/;"	m	struct:ehx
+enable	sys/intr.S	/^enable:$/;"	l
+enq	sys/gpq.c	/^int enq(int q, void *elt, int key)$/;"	f
+enqueue	sys/queue.c	/^int enqueue(int item, int tail)$/;"	f
+entry	sys/startup.S	/^entry:	.globl	entry$/;"	l
+ep	h/mon/monether.h	/^struct  ep      {               \/* complete structure of Ethernet packet*\/$/;"	s
+ep_data	h/mon/monether.h	/^	char    ep_data[EP_DLEN];       \/* data in the packet           *\/$/;"	m	struct:ep
+ep_dst	h/mon/monether.h	53;"	d
+ep_eh	h/mon/monether.h	/^	struct  eh ep_eh;       \/* the ethernet header                  *\/$/;"	m	struct:ep	typeref:struct:ep::eh
+ep_ehx	h/mon/monether.h	/^	struct  ehx ep_ehx;     \/* Xinu extended header                 *\/$/;"	m	struct:ep	typeref:struct:ep::ehx
+ep_ifn	h/mon/monether.h	51;"	d
+ep_len	h/mon/monether.h	52;"	d
+ep_nexthop	h/mon/monether.h	50;"	d
+ep_src	h/mon/monether.h	54;"	d
+ep_type	h/mon/monether.h	55;"	d
+esp	sys/stacktrace.c	/^static unsigned long	*esp;$/;"	v	file:
+etdev_comm	h/mon/monether.h	/^struct etdev_comm {$/;"	s
+eth_pd	h/mon/mon3com.h	/^struct eth_pd {$/;"	s
+ethcmdwait	mon/mon3com.c	/^int ethcmdwait(struct dev_3c905 *dev, unsigned short cmd, unsigned short arg)$/;"	f
+ethdev	h/mon/monether.h	/^struct ethdev {$/;"	s
+etoi	lib/libxc/float.s	/^etoi:$/;"	l
+exp5	lib/libxc/atof.c	/^double	exp5[]	= {5.,25.,625.,390625.,152587890625.,23232710361480712890625.};$/;"	v
+extl	lib/libxc/float.s	/^	extl	d0			|  convert to long and$/;"	d
+fadd	lib/libxc/float.s	/^fadd:$/;"	l
+fcmp	lib/libxc/float.s	/^fcmp:$/;"	l
+fcvt	lib/libxc/ecvt.c	/^char *fcvt(double arg, int ndigits, int *decpt, int *sign)$/;"	f
+fd_set	h/mon/monsystypes.h	/^typedef	struct	fd_set { int fds_bits[1]; } fd_set;$/;"	s
+fd_set	h/mon/monsystypes.h	/^typedef	struct	fd_set { int fds_bits[1]; } fd_set;$/;"	t	typeref:struct:fd_set
+fd_set	h/systypes.h	/^typedef	struct	fd_set { int fds_bits[1]; } fd_set;$/;"	s
+fd_set	h/systypes.h	/^typedef	struct	fd_set { int fds_bits[1]; } fd_set;$/;"	t	typeref:struct:fd_set
+fdiv	lib/libxc/float.s	/^fdiv:$/;"	l
+fds_bits	h/mon/monsystypes.h	/^typedef	struct	fd_set { int fds_bits[1]; } fd_set;$/;"	m	struct:fd_set
+fds_bits	h/systypes.h	/^typedef	struct	fd_set { int fds_bits[1]; } fd_set;$/;"	m	struct:fd_set
+fgetc	h/io.h	15;"	d
+fgets	lib/libxc/fgets.c	/^char *fgets(int dev, char *s, int n)$/;"	f
+fildes	h/proc.h	/^	int	fildes[_NFILE];		\/* file - device translation	*\/$/;"	m	struct:pentry
+file	h/mon/monbootp.h	/^    char file[SZFNAME];			\/* boot file name		*\/$/;"	m	struct:bootp_msg
+find_pci_class	sys/pci.c	/^SYSCALL find_pci_class(unsigned long class_code, unsigned long index) {$/;"	f
+find_pci_device	sys/pci.c	/^SYSCALL find_pci_device(int deviceID, int vendorID, int index)$/;"	f
+firstid	h/q.h	28;"	d
+firstkey	h/q.h	26;"	d
+fix	lib/libxc/float.s	/^fix:$/;"	l
+fixe	lib/libxc/float.s	/^fixe:	moveml	sp@+,#0xC		|pop d2,d3$/;"	l
+float	lib/libxc/float.s	/^float:$/;"	l
+floate	lib/libxc/float.s	/^floate:	jsr	itoe			|convert to external float$/;"	l
+fltused	lib/libxc/float.s	/^fltused:$/;"	l
+fmul	lib/libxc/float.s	/^fmul:$/;"	l
+fneg	lib/libxc/float.s	/^fneg:$/;"	l
+fp	sys/evec.c	/^static long *fp;$/;"	v	file:
+fprintf	lib/libxc/fprintf.c	/^fprintf(dev, fmt, args)$/;"	f
+fputc	h/io.h	16;"	d
+fputs	lib/libxc/fputs.c	/^fputs(int dev, char *s)$/;"	f
+freebuf	sys/freebuf.c	/^int freebuf(void *p)$/;"	f
+freemem	sys/freemem.c	/^SYSCALL	freemem(struct mblock *block, unsigned size)$/;"	f
+freeq	sys/gpq.c	/^int freeq(int q)$/;"	f
+freestk	h/mem.h	26;"	d
+frexp	lib/libxc/float.s	/^frexp:$/;"	l
+fscanf	lib/libxc/scanf.c	/^fscanf(dev, fmt, args)$/;"	f
+fspec	config/config.y	/^fspec		:	dname IS id optional.on$/;"	l
+fsub	lib/libxc/float.s	/^fsub:$/;"	l
+ftype	config/config.y	/^ftype		:	tname device.list$/;"	l
+ftypes	config/config.y	/^ftypes		:	\/**\/$/;"	l
+gdt	sys/startup.S	/^gdt:	.space	64	# must equal NGD*8 (64 = 8 segments)$/;"	l
+gdt1	sys/startup.S	/^gdt1:$/;"	l
+gdt_copy	sys/i386.c	/^struct sd gdt_copy[NGD] = {$/;"	v	typeref:struct:sd
+gdtr	sys/startup.S	/^gdtr:	.word	63	# sizeof _gdt -1 (in bytes)$/;"	l
+getargs	lib/libxc/float.s	/^getargs:$/;"	l
+getbuf	sys/getbuf.c	/^int *getbuf(int poolid)$/;"	f
+getc	sys/getc.c	/^DEVCALL getc(int descrp)$/;"	f
+getch	lib/libxc/scanf.c	/^static	getch(dev, buf)$/;"	f	file:
+getchar	h/io.h	13;"	d
+getfirst	sys/getitem.c	/^int getfirst(int head)$/;"	f
+getirmask	sys/intr.S	/^getirmask:$/;"	l
+getlast	sys/getitem.c	/^int getlast(int tail)$/;"	f
+getmem	sys/getmem.c	/^WORD *getmem(unsigned nbytes)$/;"	f
+getpid	sys/getpid.c	/^SYSCALL getpid()$/;"	f
+getprio	sys/getprio.c	/^SYSCALL getprio(int pid)$/;"	f
+gets	lib/libxc/gets.c	/^char *gets(char *s)$/;"	f
+getstk	sys/getstk.c	/^WORD *getstk(unsigned int nbytes)$/;"	f
+gettime	sys/gettime.c	/^SYSCALL	gettime(long *timvar)$/;"	f
+giaddr	h/mon/monbootp.h	/^    long giaddr;			\/* gateway IP address		*\/$/;"	m	struct:bootp_msg
+girmask	sys/evec.c	/^short	girmask;$/;"	v
+ha_addr	h/mon/monnetif.h	/^	unsigned char	ha_addr[NI_MAXHWA]; 	\/* the address		*\/$/;"	m	struct:hwa
+halt	sys/intr.S	/^halt:$/;"	l
+headq	sys/gpq.c	/^char *headq(int q)$/;"	f
+hi8	h/mon/monnetwork.h	38;"	d
+hl2net	h/mon/monnetwork.h	25;"	d
+hl2net	h/mon/monnetwork.h	33;"	d
+hlen	h/mon/monbootp.h	/^    char hlen;				\/* hardware address length	*\/$/;"	m	struct:bootp_msg
+hops	h/mon/monbootp.h	/^    char hops;				\/* set to zero			*\/$/;"	m	struct:bootp_msg
+hs2net	h/mon/monnetwork.h	23;"	d
+hs2net	h/mon/monnetwork.h	31;"	d
+htype	h/mon/monbootp.h	/^    char htype;				\/* hardware type		*\/$/;"	m	struct:bootp_msg
+hwa	h/mon/mon3com.h	/^	Eaddr	      hwa;$/;"	m	struct:dev_3c905
+hwa	h/mon/monnetif.h	/^struct	hwa	{			\/* a hardware address		*\/$/;"	s
+i82595_init	mon/ethinit.c	/^static int i82595_init(struct ethdev *ped, u_short iobase)$/;"	f	file:
+id	config/config.y	/^id		:	IDENT$/;"	l
+idt	h/i386.h	/^struct idt {$/;"	s
+idt	h/mon/moni386.h	/^struct idt {$/;"	s
+idt	sys/startup.S	/^idt:	.space	384	# must equal NID*8 (384 == 48 vectors)$/;"	l
+idtr	sys/startup.S	/^idtr:	.word	383	# size of _idt -1 (in bytes)$/;"	l
+ifn	h/mon/mon3com.h	/^	int	      ifn;$/;"	m	struct:dev_3c905
+igd_dpl	h/i386.h	/^	unsigned int	igd_dpl : 2;$/;"	m	struct:idt
+igd_dpl	h/mon/moni386.h	/^	unsigned int	igd_dpl : 2;$/;"	m	struct:idt
+igd_hoffset	h/i386.h	/^	unsigned short	igd_hoffset;$/;"	m	struct:idt
+igd_hoffset	h/mon/moni386.h	/^	unsigned short	igd_hoffset;$/;"	m	struct:idt
+igd_loffset	h/i386.h	/^	unsigned short	igd_loffset;$/;"	m	struct:idt
+igd_loffset	h/mon/moni386.h	/^	unsigned short	igd_loffset;$/;"	m	struct:idt
+igd_mbz	h/i386.h	/^	unsigned int	igd_mbz : 3;$/;"	m	struct:idt
+igd_mbz	h/mon/moni386.h	/^	unsigned int	igd_mbz : 3;$/;"	m	struct:idt
+igd_present	h/i386.h	/^	unsigned int	igd_present : 1;$/;"	m	struct:idt
+igd_present	h/mon/moni386.h	/^	unsigned int	igd_present : 1;$/;"	m	struct:idt
+igd_rsvd	h/i386.h	/^	unsigned int	igd_rsvd : 5;$/;"	m	struct:idt
+igd_rsvd	h/mon/moni386.h	/^	unsigned int	igd_rsvd : 5;$/;"	m	struct:idt
+igd_segsel	h/i386.h	/^	unsigned short	igd_segsel;$/;"	m	struct:idt
+igd_segsel	h/mon/moni386.h	/^	unsigned short	igd_segsel;$/;"	m	struct:idt
+igd_type	h/i386.h	/^	unsigned int	igd_type : 5;$/;"	m	struct:idt
+igd_type	h/mon/moni386.h	/^	unsigned int	igd_type : 5;$/;"	m	struct:idt
+inames	sys/evec.c	/^char *inames[17] = {$/;"	v
+inb	sys/startup.S	/^inb:	movl	4(%esp),%edx$/;"	l
+index	lib/libxc/index.c	/^char *index(char *sp, char c)$/;"	f
+init8259	sys/i386.c	/^int init8259()$/;"	f
+init_dev	sys/init.c	/^DEVCALL init_dev(int descrp)$/;"	f
+initevec	sys/evec.c	/^int initevec()$/;"	f
+initq	sys/gpq.c	/^static int initq()$/;"	f	file:
+initsp	sys/i386.c	/^long	initsp;		\/* initial SP for nulluser() *\/$/;"	v
+inl	sys/startup.S	/^inl:	movl	4(%esp),%edx$/;"	l
+ino_t	h/mon/monsystypes.h	/^typedef	u_long	ino_t;$/;"	t
+ino_t	h/systypes.h	/^typedef	u_long	ino_t;$/;"	t
+insert	sys/insert.c	/^int insert(int proc, int head, int key)$/;"	f
+insertd	sys/insertd.c	/^int insertd(int pid, int head, int key)$/;"	f
+insw	sys/startup.S	/^insw:$/;"	l
+inw	sys/startup.S	/^inw:	movl	4(%esp),%edx$/;"	l
+iobase	h/mon/mon3com.h	/^	unsigned long iobase;$/;"	m	struct:dev_3c905
+ioerr	sys/ioerr.c	/^int ioerr()$/;"	f
+ionull	sys/ionull.c	/^int ionull()$/;"	f
+ip	h/mon/monip.h	/^struct	ip	{$/;"	s
+ip_cksum	h/mon/monip.h	/^	short	ip_cksum;	\/* header checksum 			*\/$/;"	m	struct:ip
+ip_data	h/mon/monip.h	/^	u_char	ip_data[1];	\/* variable length data			*\/$/;"	m	struct:ip
+ip_dst	h/mon/monip.h	/^	IPaddr	ip_dst;		\/* IP address of destination		*\/$/;"	m	struct:ip
+ip_fragoff	h/mon/monip.h	/^	short 	ip_fragoff;	\/* fragment offset (in 8-octet's)	*\/$/;"	m	struct:ip
+ip_id	h/mon/monip.h	/^	short	ip_id;		\/* datagram id				*\/$/;"	m	struct:ip
+ip_len	h/mon/monip.h	/^	short	ip_len;		\/* total packet length (in octets)	*\/$/;"	m	struct:ip
+ip_proto	h/mon/monip.h	/^	u_char	ip_proto;	\/* IP protocol (see IPT_* above)	*\/$/;"	m	struct:ip
+ip_src	h/mon/monip.h	/^	IPaddr	ip_src;		\/* IP address of source			*\/$/;"	m	struct:ip
+ip_tos	h/mon/monip.h	/^	u_char	ip_tos;		\/* type of service			*\/$/;"	m	struct:ip
+ip_ttl	h/mon/monip.h	/^	u_char	ip_ttl;		\/* time to live, in gateway hops	*\/$/;"	m	struct:ip
+ip_verlen	h/mon/monip.h	/^	u_char	ip_verlen;	\/* IP version & header length (in longs)*\/$/;"	m	struct:ip
+iputchar	tty/ttyiin.c	/^static int iputchar(struct tty *ptty, unsigned char ch)$/;"	f	file:
+irq	h/mon/mon3com.h	/^	unsigned char irq;$/;"	m	struct:dev_3c905
+irqrmap	mon/ethinit.c	/^static char irqrmap[] = {-1,-1,0,1,-1,2,-1,-1,-1,0,3,4,-1,-1,-1,-1};$/;"	v	file:
+isalnum	h/ctype.h	26;"	d
+isalpha	h/ctype.h	19;"	d
+isascii	h/ctype.h	30;"	d
+isbaddev	h/io.h	7;"	d
+isbadpid	h/proc.h	39;"	d
+isbadsem	h/sem.h	22;"	d
+iscntrl	h/ctype.h	29;"	d
+isdigit	h/ctype.h	22;"	d
+isempty	h/q.h	24;"	d
+ishexnumber	h/ctype.h	35;"	d
+isleap	h/date.h	24;"	d
+islower	h/ctype.h	21;"	d
+isodd	h/kernel.h	74;"	d
+isprint	h/ctype.h	28;"	d
+isprshort	h/ctype.h	27;"	d
+ispunct	h/ctype.h	25;"	d
+isspace	h/ctype.h	24;"	d
+isupper	h/ctype.h	20;"	d
+isxdigit	h/ctype.h	23;"	d
+itoe	lib/libxc/float.s	/^itoe:$/;"	l
+jumptobootcode	sys/startup.S	/^jumptobootcode:$/;"	l
+jumptocode	sys/startup.S	/^jumptocode:$/;"	l
+kill	sys/kill.c	/^SYSCALL kill(int pid)$/;"	f
+kprintf	sys/kprintf.c	/^int kprintf(char *fmt, int args)$/;"	f
+kputc	sys/kputc.c	/^int kputc(int dev, unsigned char c)$/;"	f
+l1$	lib/libxc/float.s	/^l1$:	movw	a0@+,d0			|high to low words of afloat$/;"	l
+l2$	lib/libxc/float.s	/^l2$:	movw	a0@-,d0			|low to high of afloat$/;"	l
+l3$	lib/libxc/float.s	/^l3$:	movw	a0@+,d0			|high to low of afloat$/;"	l
+label_t	h/mon/monsystypes.h	/^typedef	struct	label_t	{$/;"	s
+label_t	h/mon/monsystypes.h	/^} label_t;$/;"	t	typeref:struct:label_t
+label_t	h/systypes.h	/^typedef	struct	label_t	{$/;"	s
+label_t	h/systypes.h	/^} label_t;$/;"	t	typeref:struct:label_t
+lastkey	h/q.h	27;"	d
+ldexp	lib/libxc/float.s	/^ldexp:$/;"	l
+ldiv	lib/libxc/ldiv.s	/^ldiv:	link	a6,#0$/;"	l
+len	h/i386.h	/^	unsigned int	len : 16;$/;"	m	struct:segtr
+len	h/mon/moni386.h	/^	unsigned int	len : 16;$/;"	m	struct:segtr
+length	h/mon/mon3com.h	/^	unsigned long	length;$/;"	m	struct:eth_pd
+length	h/mon/monpci.h	/^    unsigned char   length;	    \/* length of data in 16 byte units   *\/$/;"	m	struct:bios32
+length	h/pci.h	/^    unsigned char   length;	    \/* length of data in 16 byte units   *\/$/;"	m	struct:bios32
+lenq	sys/gpq.c	/^int lenq(int q)$/;"	f
+lidt	sys/startup.S	/^lidt:$/;"	l
+lmul	lib/libxc/lmul.s	/^lmul:	link	a6,#0$/;"	l
+longjmp	lib/libxc/setjmp.s	/^longjmp:$/;"	l
+low16	h/mon/monnetwork.h	39;"	d
+lrem	lib/libxc/lrem.s	/^lrem:	link	a6,#0$/;"	l
+lstab	com/comcntl.c	/^int lstab[] = {2304, 1536, 1047, 857, 768, 384, 192, 96, 64, 58, 48, 32,$/;"	v
+lsum	lib/libxc/float.s	/^lsum:				|storage for multiply$/;"	l
+ltim2ut	h/date.h	43;"	d
+main	sys/main.c	/^int main()$/;"	f
+major	h/mon/monsystypes.h	10;"	d
+major	h/systypes.h	10;"	d
+make_bootp_packet	mon/monbootp.c	/^static int make_bootp_packet(struct bootp_msg *bptr, int secs)$/;"	f	file:
+makedev	h/mon/monsystypes.h	16;"	d
+makedev	h/systypes.h	16;"	d
+mark	sys/mark.c	/^int mark(int *loc)$/;"	f
+marked	h/mark.h	18;"	d
+marks	sys/mark.c	/^int	*marks[MAXMARK];$/;"	v
+max	h/kernel.h	76;"	d
+maxaddr	sys/initialize.c	/^char	*maxaddr;		\/* max memory address (set by sizmem)	*\/$/;"	v
+mblock	h/mem.h	/^struct	mblock	{$/;"	s
+mcount	lib/libxc/mcount.s	/^mcount:	movl	a0@,d0		| fetch contents of LABEL$/;"	l
+membase	h/mon/mon3com.h	/^	unsigned long membase;$/;"	m	struct:dev_3c905
+memlist	sys/initialize.c	/^struct	mblock	memlist;	\/* list of free memory blocks		*\/$/;"	v	typeref:struct:mblock
+min	h/kernel.h	75;"	d
+minor	h/mon/monsystypes.h	13;"	d
+minor	h/systypes.h	13;"	d
+mkmutex	sys/mark.c	/^int	mkmutex;$/;"	v
+mkpool	sys/mkpool.c	/^int mkpool(int bufsiz, int numbufs)$/;"	f
+mlen	h/mem.h	/^	unsigned int	mlen;$/;"	m	struct:mblock
+mnext	h/mem.h	/^	struct	mblock	*mnext;$/;"	m	struct:mblock	typeref:struct:mblock::mblock
+modfe	lib/libxc/float.s	/^modfe:	movl	a6@(16),a1		|get pointer argument$/;"	l
+mon_3c905_ethdemux	mon/mon3com.c	/^int mon_3c905_ethdemux (dev) $/;"	f
+mon_3c905_ethinit	mon/mon3com.c	/^int mon_3c905_ethinit () $/;"	f
+mon_3c905_ethintr	mon/mon3com.c	/^int mon_3c905_ethintr() {$/;"	f
+mon_3c905_ethwrite	mon/mon3com.c	/^int mon_3c905_ethwrite (pep, len)$/;"	f
+mon_3c905_ethxintr	mon/mon3com.c	/^int mon_3c905_ethxintr(dev)$/;"	f
+mon_Net	mon/monitor.c	/^struct  netinfo mon_Net;$/;"	v	typeref:struct:netinfo
+mon_Q	mon/mongpq.c	/^static	struct	qinfo mon_Q[MAXNQ];$/;"	v	typeref:struct:qinfo	file:
+mon_arp_in	mon/monarp.c	/^int mon_arp_in(struct netif *pni, struct ep *pep)$/;"	f
+mon_arpalloc	mon/monarp.c	/^struct arpentry *mon_arpalloc()$/;"	f
+mon_arpfind	mon/monarp.c	/^struct arpentry *mon_arpfind(char *pra)$/;"	f
+mon_arpinit	mon/monarp.c	/^void mon_arpinit()$/;"	f
+mon_arpsend	mon/monarp.c	/^int mon_arpsend(struct arpentry *pae)$/;"	f
+mon_arptable	mon/monarp.c	/^struct	arpentry	mon_arptable[MON_ARP_TSIZE];$/;"	v	typeref:struct:arpentry
+mon_bios32_entry	mon/monpci.c	/^static unsigned long mon_bios32_entry = 0;$/;"	v	file:
+mon_bios32_indirect	mon/monpci.c	/^} mon_bios32_indirect = { 0, 0 + 5*0x08 \/* 0x10  KERNEL_CS *\/ };$/;"	v	typeref:struct:__anon1	file:
+mon_bios32_service	mon/monpci.c	/^static unsigned long mon_bios32_service(unsigned long service)$/;"	f	file:
+mon_bios32ptr	mon/monpci.c	/^static bios32	*mon_bios32ptr;	\/* pointer to the BIOS 32 structure *\/$/;"	v	file:
+mon_blkequ	mon/monnet.c	/^int mon_blkequ(char *first, char *second, int nbytes)$/;"	f
+mon_boot_fname	mon/monbootp.c	/^char mon_boot_fname[80];$/;"	v
+mon_boot_state	mon/monboot.c	/^int mon_boot_state;$/;"	v
+mon_boot_try	mon/monboot.c	/^int mon_boot_try = 0;$/;"	v
+mon_bootp_in	mon/monbootp.c	/^int mon_bootp_in(struct udp *pudp)$/;"	f
+mon_bootp_parse	mon/monbootp.c	/^int mon_bootp_parse(struct bootp_msg *p)$/;"	f
+mon_bootp_request	mon/monbootp.c	/^int mon_bootp_request(int secs)$/;"	f
+mon_bufpool	mon/monnet.c	/^int		mon_bufpool;$/;"	v
+mon_check_pcibios	mon/monpci.c	/^int mon_check_pcibios(void)$/;"	f
+mon_cksum	mon/moncksum.S	/^mon_cksum:$/;"	l
+mon_clkint	mon/monclkint.S	/^mon_clkint:$/;"	l
+mon_clktime	mon/monboot.c	/^int mon_clktime = 0;		\/* tick once per sec. for retx purpose *\/$/;"	v
+mon_cmd	mon/monitor.c	/^int mon_cmd(char *str)$/;"	f
+mon_deq	mon/mongpq.c	/^char *mon_deq(int q)$/;"	f
+mon_dev_eth	mon/mon3com.c	/^struct dev_3c905 mon_dev_eth;$/;"	v	typeref:struct:dev_3c905
+mon_enq	mon/mongpq.c	/^int mon_enq(int q, char *elt, int key)$/;"	f
+mon_eth	mon/ethinit.c	/^struct ethdev    mon_eth[1];$/;"	v	typeref:struct:ethdev
+mon_eth_pni	mon/monboot.c	/^struct netif *mon_eth_pni = &mon_nif[0];	\/* network interface *\/$/;"	v	typeref:struct:netif
+mon_eth_rxring	mon/mon3com.c	/^struct eth_pd* mon_eth_rxring;$/;"	v	typeref:struct:eth_pd
+mon_eth_txring	mon/mon3com.c	/^struct eth_pd* mon_eth_txring;$/;"	v	typeref:struct:eth_pd
+mon_ethcmd	mon/ethcmd.c	/^int mon_ethcmd(iobase, cmd, istatus)$/;"	f
+mon_ethdemux	mon/ethdemux.c	/^int mon_ethdemux(struct ethdev *ped, u_short iobase)$/;"	f
+mon_ethinit	mon/ethinit.c	/^int mon_ethinit()$/;"	f
+mon_ethint	mon/ethint.S	/^mon_ethint:$/;"	l
+mon_ethint_hi	mon/ethint.S	/^mon_ethint_hi:				\/* for the 3com cards *\/$/;"	l
+mon_ethintr	mon/ethintr.c	/^int mon_ethintr()$/;"	f
+mon_ethromread	mon/ethrom.c	/^unsigned short mon_ethromread(iobase, from)$/;"	f
+mon_ethwrite	mon/ethwrite.c	/^int mon_ethwrite(pep, len)$/;"	f
+mon_ethwstrt	mon/ethwstrt.c	/^int mon_ethwstrt(ped)$/;"	f
+mon_find_pci_device	mon/monpci.c	/^int mon_find_pci_device(int deviceID, int vendorID, int index)$/;"	f
+mon_first_req	mon/monboot.c	/^int mon_first_req = 0;$/;"	v
+mon_headq	mon/mongpq.c	/^char * mon_headq(int q)$/;"	f
+mon_help	mon/monitor.c	/^int mon_help()$/;"	f
+mon_init	mon/monnet.c	/^int mon_init()$/;"	f
+mon_initq	mon/mongpq.c	/^int mon_initq()$/;"	f
+mon_ip_anyaddr	mon/monnet.c	/^IPaddr		mon_ip_anyaddr = 0;$/;"	v
+mon_ip_in	mon/monip.c	/^int mon_ip_in(struct netif *pni, struct ep *pep)$/;"	f
+mon_ip_maskall	mon/monnet.c	/^IPaddr		mon_ip_maskall = -1;$/;"	v
+mon_lenq	mon/mongpq.c	/^int mon_lenq(int q)$/;"	f
+mon_netinit	mon/monnet.c	/^int mon_netinit()$/;"	f
+mon_netwrite	mon/monnet.c	/^int mon_netwrite(pep, len)$/;"	f
+mon_newq	mon/mongpq.c	/^int mon_newq(int size)$/;"	f
+mon_ni_in	mon/monnet.c	/^int mon_ni_in(pni, pep, len)$/;"	f
+mon_nif	mon/monnet.c	/^struct	netif	mon_nif[1];$/;"	v	typeref:struct:netif
+mon_pci_bios_read_config_byte	mon/monpci.c	/^int mon_pci_bios_read_config_byte(unsigned long dev, int where, unsigned char *value)$/;"	f
+mon_pci_bios_read_config_dword	mon/monpci.c	/^int mon_pci_bios_read_config_dword(unsigned long dev, int where, unsigned long *value)$/;"	f
+mon_pci_bios_read_config_word	mon/monpci.c	/^int mon_pci_bios_read_config_word(unsigned long dev, int where, unsigned short *value)$/;"	f
+mon_pci_bios_write_config_byte	mon/monpci.c	/^int mon_pci_bios_write_config_byte(unsigned long dev, int where, unsigned char value)$/;"	f
+mon_pci_bios_write_config_dword	mon/monpci.c	/^int mon_pci_bios_write_config_dword(unsigned long dev, int where, unsigned long value)$/;"	f
+mon_pci_bios_write_config_word	mon/monpci.c	/^int mon_pci_bios_write_config_word(unsigned long dev, int where, unsigned short value)$/;"	f
+mon_pci_indirect	mon/monpci.c	/^} mon_pci_indirect = { 0, 0+5*0x08 \/* 0x10  KERNEL_CS *\/ };$/;"	v	typeref:struct:__anon2	file:
+mon_pci_init	mon/monpci.c	/^int mon_pci_init(void)$/;"	f
+mon_pcibios_entry	mon/monpci.c	/^static long mon_pcibios_entry = 0;$/;"	v	file:
+mon_pcibios_init	mon/monpci.c	/^int mon_pcibios_init(void)$/;"	f
+mon_tftp_ack	mon/montftp.c	/^int mon_tftp_ack(int block_no)$/;"	f
+mon_tftp_block	mon/montftp.c	/^int mon_tftp_block;		\/* tftp block count *\/$/;"	v
+mon_tftp_bytes	mon/montftp.c	/^int mon_tftp_bytes;		\/* tftp byte count *\/$/;"	v
+mon_tftp_in	mon/montftp.c	/^int mon_tftp_in(struct udp *pudp)$/;"	f
+mon_tftp_memloc	mon/montftp.c	/^char *mon_tftp_memloc;$/;"	v
+mon_tftp_req	mon/montftp.c	/^int mon_tftp_req()$/;"	f
+mon_tftp_retx	mon/montftp.c	/^int mon_tftp_retx;              \/* TFTP ACK retx count *\/$/;"	v
+mon_tftp_server	mon/montftp.c	/^IPaddr mon_tftp_server;$/;"	v
+mon_tftp_server_port	mon/montftp.c	/^short mon_tftp_server_port;$/;"	v
+mon_timeout	mon/monboot.c	/^int mon_timeout = 0;		\/* when to send a retx; 0: stop	retx *\/$/;"	v
+mon_timer	mon/montimer.c	/^int mon_timer()$/;"	f
+mon_udp_in	mon/monudp.c	/^int mon_udp_in(struct netif *pni, struct ep *pep)$/;"	f
+mon_udpcksum	mon/monudp.c	/^u_short mon_udpcksum(struct ep *pep, int len)$/;"	f
+monitor	mon/monitor.c	/^int monitor(u_short csr)$/;"	f
+mult	lib/libxc/float.s	/^mult:$/;"	l
+multe	lib/libxc/float.s	/^multe:	addql	#1,a2			|adjust a2 pointer$/;"	l
+nbgetbuf	sys/getbuf.c	/^int *nbgetbuf(int poolid)$/;"	f
+nbpools	sys/poolinit.c	/^int	nbpools;$/;"	v
+negl	lib/libxc/aldiv.s	/^	negl	d0$/;"	d
+negl	lib/libxc/aldiv.s	/^	negl	d1$/;"	d
+negl	lib/libxc/aldiv.s	/^	negl	d5$/;"	d
+negl	lib/libxc/almul.s	/^	negl	d0$/;"	d
+negl	lib/libxc/almul.s	/^	negl	d2$/;"	d
+negl	lib/libxc/almul.s	/^	negl	d3$/;"	d
+negl	lib/libxc/almul.s	/^	negl	d4$/;"	d
+negl	lib/libxc/alrem.s	/^	negl	d0		|  remainder$/;"	d
+negl	lib/libxc/alrem.s	/^	negl	d0$/;"	d
+negl	lib/libxc/alrem.s	/^	negl	d1$/;"	d
+negl	lib/libxc/alrem.s	/^	negl	d4$/;"	d
+negl	lib/libxc/aulrem.s	/^	negl	d0		|  remainder$/;"	d
+negl	lib/libxc/blt.s	/^	negl	d0		|complement$/;"	d
+negl	lib/libxc/float.s	/^	negl	d0			|convert to positive$/;"	d
+negl	lib/libxc/float.s	/^	negl	d0			|negative - negate d0$/;"	d
+negl	lib/libxc/float.s	/^	negl	d1			|  negate mantissa$/;"	d
+negl	lib/libxc/float.s	/^	negl	d3			|  negate mantissa$/;"	d
+negl	lib/libxc/float.s	/^	negl	d3			|result is negative so$/;"	d
+negl	lib/libxc/ldiv.s	/^	negl	d0$/;"	d
+negl	lib/libxc/ldiv.s	/^	negl	d1$/;"	d
+negl	lib/libxc/ldiv.s	/^	negl	d5$/;"	d
+negl	lib/libxc/lmul.s	/^	negl	d0$/;"	d
+negl	lib/libxc/lmul.s	/^	negl	d2$/;"	d
+negl	lib/libxc/lmul.s	/^	negl	d3$/;"	d
+negl	lib/libxc/lmul.s	/^	negl	d4$/;"	d
+negl	lib/libxc/lrem.s	/^	negl	d0		|  remainder$/;"	d
+negl	lib/libxc/lrem.s	/^	negl	d0$/;"	d
+negl	lib/libxc/lrem.s	/^	negl	d1$/;"	d
+negl	lib/libxc/lrem.s	/^	negl	d4$/;"	d
+negl	lib/libxc/ulrem.s	/^	negl	d0		|  remainder$/;"	d
+negxl	lib/libxc/float.s	/^	negxl	d0			|  for addition$/;"	d
+negxl	lib/libxc/float.s	/^	negxl	d2			|  for addition$/;"	d
+negxl	lib/libxc/float.s	/^	negxl	d2			|  negate mantissa$/;"	d
+net2hl	h/mon/monnetwork.h	27;"	d
+net2hl	h/mon/monnetwork.h	34;"	d
+net2hs	h/mon/monnetwork.h	24;"	d
+net2hs	h/mon/monnetwork.h	32;"	d
+net2xt	h/date.h	10;"	d
+netif	h/mon/monnetif.h	/^struct	netif {				\/* info about one net interface	*\/$/;"	s
+netinfo	h/mon/monitor.h	/^struct	netinfo	{			\/* info and parms. for network	*\/$/;"	s
+netpool	h/mon/monitor.h	/^	int	netpool;		\/* network packet buffer pool	*\/$/;"	m	struct:netinfo
+newpid	sys/create.c	/^LOCAL int newpid()$/;"	f
+newq	sys/gpq.c	/^int newq(int size, int mtype)$/;"	f
+newqueue	sys/newqueue.c	/^int newqueue()$/;"	f
+newsem	sys/screate.c	/^LOCAL int newsem()$/;"	f
+next	h/mon/mon3com.h	/^	struct eth_pd*	next;$/;"	m	struct:eth_pd	typeref:struct:eth_pd::eth_pd
+nextproc	sys/initialize.c	/^int	nextproc;		\/* next process slot to use in create	*\/$/;"	v
+nextqueue	sys/initialize.c	/^int	nextqueue;		\/* next slot in q structure to use	*\/$/;"	v
+nextsem	sys/initialize.c	/^int	nextsem;		\/* next sempahore slot to use in screate*\/$/;"	v
+ni_hwa	h/mon/monnetif.h	/^	struct	hwa	ni_hwa;		\/* hardware address of interface*\/$/;"	m	struct:netif	typeref:struct:netif::hwa
+ni_hwb	h/mon/monnetif.h	/^	struct	hwa	ni_hwb;		\/* hardware broadcast address	*\/$/;"	m	struct:netif	typeref:struct:netif::hwa
+ni_ip	h/mon/monnetif.h	/^	IPaddr		ni_ip;		\/* IP address for this interface*\/$/;"	m	struct:netif
+ni_state	h/mon/monnetif.h	/^	char		ni_state;	\/* interface states: NIS_ above	*\/$/;"	m	struct:netif
+ni_write	h/mon/monnetif.h	/^	int             (*ni_write)();  \/* write function call pointer  *\/$/;"	m	struct:netif
+nmarks	sys/mark.c	/^int	nmarks;$/;"	v
+nonempty	h/q.h	25;"	d
+normal	lib/libxc/float.s	/^normal:$/;"	l
+nulluser	sys/initialize.c	/^int nulluser()				\/* babysit CPU when no one home *\/$/;"	f
+number	config/config.y	/^number		:	INTEGER$/;"	l
+numproc	sys/initialize.c	/^int	numproc;		\/* number of live user processes	*\/$/;"	v
+off_t	h/mon/monsystypes.h	/^typedef	int	off_t;$/;"	t
+off_t	h/systypes.h	/^typedef	int	off_t;$/;"	t
+offset	lib/libxc/float.s	/^offset:$/;"	l
+ok	lib/libxc/float.s	/^ok:	movl	a1@,d1			|d1 = divisor low$/;"	l
+op	h/mon/monbootp.h	/^    char op;				\/* request or reply 		*\/$/;"	m	struct:bootp_msg
+open	sys/open.c	/^DEVCALL open(int descrp, int arg1, int arg2)$/;"	f
+outb	sys/startup.S	/^outb:	movl	4(%esp),%edx$/;"	l
+outl	sys/startup.S	/^outl:	movl	4(%esp),%edx$/;"	l
+outsw	sys/startup.S	/^outsw:$/;"	l
+outw	sys/startup.S	/^outw:	movl	4(%esp),%edx$/;"	l
+padding	h/mon/monpci.h	/^    unsigned char   padding[5];	    \/* all zeros                         *\/$/;"	m	struct:bios32
+padding	h/pci.h	/^    unsigned char   padding[5];	    \/* all zeros                         *\/$/;"	m	struct:bios32
+paddr	h/proc.h	/^	WORD	paddr;			\/* initial code address		*\/$/;"	m	struct:pentry
+panic	sys/panic.c	/^int panic(char *msg)$/;"	f
+pargs	h/proc.h	/^	int	pargs;			\/* initial number of arguments	*\/$/;"	m	struct:pentry
+pause	sys/intr.S	/^pause:$/;"	l
+pbase	h/proc.h	/^	WORD	pbase;			\/* base of run time stack	*\/$/;"	m	struct:pentry
+pci_bios_read_config_byte	sys/pci.c	/^SYSCALL pci_bios_read_config_byte(unsigned long dev, int where, unsigned char *value)$/;"	f
+pci_bios_read_config_dword	sys/pci.c	/^SYSCALL pci_bios_read_config_dword(unsigned long dev, int where, unsigned long *value)$/;"	f
+pci_bios_read_config_word	sys/pci.c	/^SYSCALL pci_bios_read_config_word(unsigned long dev, int where, unsigned short *value)$/;"	f
+pci_bios_write_config_byte	sys/pci.c	/^SYSCALL pci_bios_write_config_byte(unsigned long dev, int where, unsigned char value)$/;"	f
+pci_bios_write_config_dword	sys/pci.c	/^SYSCALL pci_bios_write_config_dword(unsigned long dev, int where, unsigned long value)$/;"	f
+pci_bios_write_config_word	sys/pci.c	/^SYSCALL pci_bios_write_config_word(unsigned long dev, int where, unsigned short value)$/;"	f
+pci_indirect	sys/pci.c	/^} pci_indirect = { 0, 0+5*0x08 \/* 0x10  KERNEL_CS *\/ };$/;"	v	typeref:struct:__anon4	file:
+pci_init	sys/pci.c	/^SYSCALL pci_init(void)$/;"	f
+pcibios_entry	sys/pci.c	/^static long pcibios_entry = 0;$/;"	v	file:
+pcibios_init	sys/pci.c	/^SYSCALL pcibios_init(void)$/;"	f
+pcidev	h/mon/mon3com.h	/^	unsigned long pcidev;$/;"	m	struct:dev_3c905
+pdevs	h/proc.h	/^	short	pdevs[2];		\/* devices to close upon exit	*\/$/;"	m	struct:pentry
+pentry	h/proc.h	/^struct	pentry	{$/;"	s
+pesp	h/proc.h	/^	int	pesp;			\/* saved stack pointer		*\/$/;"	m	struct:pentry
+phasmsg	h/proc.h	/^	char	phasmsg;		\/* nonzero iff pmsg is valid	*\/$/;"	m	struct:pentry
+physadr	h/mon/monsystypes.h	/^typedef	struct	_physadr { int r[1]; } *physadr;$/;"	t	typeref:struct:_physadr
+physadr	h/mon/monsystypes.h	/^typedef	struct	_physadr { short r[1]; } *physadr;$/;"	t	typeref:struct:_physadr
+physadr	h/systypes.h	/^typedef	struct	_physadr { int r[1]; } *physadr;$/;"	t	typeref:struct:_physadr
+physadr	h/systypes.h	/^typedef	struct	_physadr { short r[1]; } *physadr;$/;"	t	typeref:struct:_physadr
+ping_args	h/ping.h	/^struct ping_args {$/;"	s
+pirmask	h/proc.h	/^	STATWORD pirmask;		\/* saved interrupt mask		*\/$/;"	m	struct:pentry
+plimit	h/proc.h	/^	WORD	plimit;			\/* lowest extent of stack	*\/$/;"	m	struct:pentry
+pmsg	h/proc.h	/^	WORD	pmsg;			\/* message sent to this process	*\/$/;"	m	struct:pentry
+pname	h/proc.h	/^	char	pname[PNMLEN];		\/* process name			*\/$/;"	m	struct:pentry
+pnxtkin	h/proc.h	/^	WORD	pnxtkin;		\/* next-of-kin notified of death*\/$/;"	m	struct:pentry
+poolinit	sys/poolinit.c	/^int poolinit()$/;"	f
+ppagedev	h/proc.h	/^	int	ppagedev;		\/* pageing dgram device		*\/$/;"	m	struct:pentry
+pprio	h/proc.h	/^	int	pprio;			\/* process priority		*\/$/;"	m	struct:pentry
+preempt	sys/clkinit.c	/^int	preempt;		\/* preemption counter.	Current process *\/$/;"	v
+printf	lib/libxc/printf.c	/^printf(fmt, args)$/;"	f
+proctab	sys/initialize.c	/^struct	pentry	proctab[NPROC]; \/* process table			*\/$/;"	v	typeref:struct:pentry
+pseg	sys/i386.c	/^int pseg(struct sd *psd)$/;"	f
+psem	h/proc.h	/^	int	psem;			\/* semaphore if process waiting	*\/$/;"	m	struct:pentry
+pstate	h/proc.h	/^	char	pstate;			\/* process state: PRCURR, etc.	*\/$/;"	m	struct:pentry
+pstklen	h/proc.h	/^	int	pstklen;		\/* stack length			*\/$/;"	m	struct:pentry
+ptcpumode	h/proc.h	/^	Bool	ptcpumode;		\/* proc is in TCP urgent mode	*\/$/;"	m	struct:pentry
+putc	sys/putc.c	/^DEVCALL putc(int descrp, char ch)$/;"	f
+putchar	h/io.h	14;"	d
+puts	lib/libxc/puts.c	/^puts(char *s)$/;"	f
+pwaitret	h/proc.h	/^	int	pwaitret;$/;"	m	struct:pentry
+q	sys/initialize.c	/^struct	qent	q[NQENT];	\/* q table (see queue.c)		*\/$/;"	v	typeref:struct:qent
+q_count	mon/mongpq.c	/^	int	q_count;$/;"	m	struct:qinfo	file:
+q_count	sys/gpq.c	/^	int	q_count;$/;"	m	struct:qinfo	file:
+q_elt	mon/mongpq.c	/^	char	**q_elt;$/;"	m	struct:qinfo	file:
+q_elt	sys/gpq.c	/^	char	**q_elt;$/;"	m	struct:qinfo	file:
+q_key	mon/mongpq.c	/^	int	*q_key;$/;"	m	struct:qinfo	file:
+q_key	sys/gpq.c	/^	int	*q_key;$/;"	m	struct:qinfo	file:
+q_max	mon/mongpq.c	/^	int	q_max;$/;"	m	struct:qinfo	file:
+q_max	sys/gpq.c	/^	int	q_max;$/;"	m	struct:qinfo	file:
+q_mutex	mon/mongpq.c	/^	int	q_mutex;$/;"	m	struct:qinfo	file:
+q_mutex	sys/gpq.c	/^	int	q_mutex;$/;"	m	struct:qinfo	file:
+q_seen	mon/mongpq.c	/^	int	q_seen;$/;"	m	struct:qinfo	file:
+q_seen	sys/gpq.c	/^	int	q_seen;$/;"	m	struct:qinfo	file:
+q_type	sys/gpq.c	/^	int	q_type;		\/* mutex type	*\/$/;"	m	struct:qinfo	file:
+q_valid	mon/mongpq.c	/^	char	q_valid;$/;"	m	struct:qinfo	file:
+q_valid	sys/gpq.c	/^	Bool	q_valid;$/;"	m	struct:qinfo	file:
+qent	h/q.h	/^struct	qent	{		\/* one for each process plus two for	*\/$/;"	s
+qinfo	mon/mongpq.c	/^struct	qinfo {$/;"	s	file:
+qinfo	sys/gpq.c	/^struct	qinfo {$/;"	s	file:
+qinit	sys/gpq.c	/^static	int	qinit = FALSE;$/;"	v	file:
+qkey	h/q.h	/^	int	qkey;		\/* key on which the queue is ordered	*\/$/;"	m	struct:qent
+qnext	h/q.h	/^	int	qnext;		\/* pointer to next process or tail	*\/$/;"	m	struct:qent
+qprev	h/q.h	/^	int	qprev;		\/* pointer to previous process or head	*\/$/;"	m	struct:qent
+qs1	lib/libxc/qsort.c	/^static qs1(a, l)$/;"	f	file:
+qscmp	lib/libxc/qsort.c	/^static int	(*qscmp)();$/;"	v	file:
+qses	lib/libxc/qsort.c	/^static int	qses, qs1(), qsexc(), qstexc();$/;"	v	file:
+qsexc	lib/libxc/qsort.c	/^static qsexc(i, j)$/;"	f	file:
+qsort	lib/libxc/qsort.c	/^qsort(a, n, es, fc)$/;"	f
+qstexc	lib/libxc/qsort.c	/^static qstexc(i, j, k)$/;"	f	file:
+quad	h/mon/monsystypes.h	/^typedef	struct	_quad { long val[2]; } quad;$/;"	t	typeref:struct:_quad
+quad	h/systypes.h	/^typedef	struct	_quad { long val[2]; } quad;$/;"	t	typeref:struct:_quad
+r	h/mon/monsystypes.h	/^typedef	struct	_physadr { int r[1]; } *physadr;$/;"	m	struct:_physadr
+r	h/mon/monsystypes.h	/^typedef	struct	_physadr { short r[1]; } *physadr;$/;"	m	struct:_physadr
+r	h/systypes.h	/^typedef	struct	_physadr { int r[1]; } *physadr;$/;"	m	struct:_physadr
+r	h/systypes.h	/^typedef	struct	_physadr { short r[1]; } *physadr;$/;"	m	struct:_physadr
+rand	lib/libxc/rand.c	/^rand()$/;"	f
+randx	lib/libxc/rand.c	/^static	long	randx = 1;$/;"	v	file:
+rcv_frame	mon/ethdemux.c	/^static int rcv_frame(struct ethdev *ped, u_short port, u_short len)$/;"	f	file:
+rdyhead	sys/initialize.c	/^int	rdyhead, rdytail;	\/* head\/tail of ready list (q indicies)	*\/$/;"	v
+rdytail	sys/initialize.c	/^int	rdyhead, rdytail;	\/* head\/tail of ready list (q indicies)	*\/$/;"	v
+read	sys/read.c	/^DEVCALL read(int descrp, void *p, int count)$/;"	f
+ready	sys/ready.c	/^int ready(int pid, int resch)$/;"	f
+reboot	sys/initialize.c	/^int	reboot = 0;		\/* non-zero after first boot		*\/$/;"	v
+receive	sys/receive.c	/^SYSCALL	receive()$/;"	f
+recvclr	sys/recvclr.c	/^SYSCALL	recvclr()$/;"	f
+recvtim	sys/recvtim.c	/^SYSCALL	recvtim(int maxwait)$/;"	f
+reprint	tty/ttyiin.c	/^static int reprint(struct tty *ptty)$/;"	f	file:
+resched	sys/resched.c	/^int resched()$/;"	f
+restore	sys/intr.S	/^restore:$/;"	l
+restore_flags	h/mon/monpci.h	35;"	d
+restore_flags	h/pci.h	35;"	d
+resume	sys/resume.c	/^SYSCALL resume(int pid)$/;"	f
+revision	h/mon/monpci.h	/^    unsigned char   revision;	    \/* should be 0x00                    *\/$/;"	m	struct:bios32
+revision	h/pci.h	/^    unsigned char   revision;	    \/* should be 0x00                    *\/$/;"	m	struct:bios32
+rindex	lib/libxc/rindex.c	/^char *rindex(char *sp, char c)$/;"	f
+roundew	h/mem.h	10;"	d
+roundmb	h/mem.h	18;"	d
+rx_begin	h/mon/mon3com.h	/^	unsigned long rx_begin;		\/* the end pointer are on the NIC *\/$/;"	m	struct:dev_3c905
+rxring	mon/mon3com.c	/^struct eth_pd  rxring[_3C905_RXRING + 1];$/;"	v	typeref:struct:eth_pd
+s_data	h/mon/monbootp.h	/^    char s_data[1];			\/* length bytes of data		*\/$/;"	m	struct:sub_vendor
+s_length	h/mon/monbootp.h	/^    char s_length;			\/* length			*\/$/;"	m	struct:sub_vendor
+s_tag	h/mon/monbootp.h	/^    char s_tag;				\/* tag octet			*\/$/;"	m	struct:sub_vendor
+save_flags	h/mon/monpci.h	32;"	d
+save_flags	h/pci.h	32;"	d
+savearea	sys/startup.S	/^savearea:	.long	0,0	# sp & bp to return to$/;"	l
+scan_pci_bios	sys/pci.c	/^int scan_pci_bios(void) {$/;"	f
+scanf	lib/libxc/scanf.c	/^scanf(fmt, args)$/;"	f
+scount	sys/scount.c	/^SYSCALL scount(int sem)$/;"	f
+screate	sys/screate.c	/^SYSCALL screate(int count)$/;"	f
+sd	h/i386.h	/^struct sd {$/;"	s
+sd	h/mon/moni386.h	/^struct sd {$/;"	s
+sd_32b	h/i386.h	/^	unsigned int	sd_32b : 1;$/;"	m	struct:sd
+sd_32b	h/mon/moni386.h	/^	unsigned int	sd_32b : 1;$/;"	m	struct:sd
+sd_avl	h/i386.h	/^	unsigned int	sd_avl : 1;$/;"	m	struct:sd
+sd_avl	h/mon/moni386.h	/^	unsigned int	sd_avl : 1;$/;"	m	struct:sd
+sd_dpl	h/i386.h	/^	unsigned int	sd_dpl : 2;$/;"	m	struct:sd
+sd_dpl	h/mon/moni386.h	/^	unsigned int	sd_dpl : 2;$/;"	m	struct:sd
+sd_gran	h/i386.h	/^	unsigned int	sd_gran : 1;$/;"	m	struct:sd
+sd_gran	h/mon/moni386.h	/^	unsigned int	sd_gran : 1;$/;"	m	struct:sd
+sd_hibase	h/i386.h	/^	unsigned char	sd_hibase;$/;"	m	struct:sd
+sd_hibase	h/mon/moni386.h	/^	unsigned char	sd_hibase;$/;"	m	struct:sd
+sd_hilimit	h/i386.h	/^	unsigned int	sd_hilimit : 4;$/;"	m	struct:sd
+sd_hilimit	h/mon/moni386.h	/^	unsigned int	sd_hilimit : 4;$/;"	m	struct:sd
+sd_isapp	h/i386.h	/^	unsigned int	sd_isapp : 1;$/;"	m	struct:sd
+sd_isapp	h/mon/moni386.h	/^	unsigned int	sd_isapp : 1;$/;"	m	struct:sd
+sd_iscode	h/i386.h	/^	unsigned int	sd_iscode : 1;$/;"	m	struct:sd
+sd_iscode	h/mon/moni386.h	/^	unsigned int	sd_iscode : 1;$/;"	m	struct:sd
+sd_lobase	h/i386.h	/^	unsigned short	sd_lobase;$/;"	m	struct:sd
+sd_lobase	h/mon/moni386.h	/^	unsigned short	sd_lobase;$/;"	m	struct:sd
+sd_lolimit	h/i386.h	/^	unsigned short	sd_lolimit;$/;"	m	struct:sd
+sd_lolimit	h/mon/moni386.h	/^	unsigned short	sd_lolimit;$/;"	m	struct:sd
+sd_mbz	h/i386.h	/^	unsigned int	sd_mbz : 1;		\/* must be '0' *\/$/;"	m	struct:sd
+sd_mbz	h/mon/moni386.h	/^	unsigned int	sd_mbz : 1;		\/* must be '0' *\/$/;"	m	struct:sd
+sd_midbase	h/i386.h	/^	unsigned char	sd_midbase;$/;"	m	struct:sd
+sd_midbase	h/mon/moni386.h	/^	unsigned char	sd_midbase;$/;"	m	struct:sd
+sd_perm	h/i386.h	/^	unsigned int	sd_perm : 3;$/;"	m	struct:sd
+sd_perm	h/mon/moni386.h	/^	unsigned int	sd_perm : 3;$/;"	m	struct:sd
+sd_present	h/i386.h	/^	unsigned int	sd_present : 1;$/;"	m	struct:sd
+sd_present	h/mon/moni386.h	/^	unsigned int	sd_present : 1;$/;"	m	struct:sd
+sd_type	h/i386.h	48;"	d
+sd_type	h/mon/moni386.h	48;"	d
+sdelete	sys/sdelete.c	/^SYSCALL sdelete(int sem)$/;"	f
+search_eepro	mon/ethinit.c	/^static int search_eepro(u_short iobase)$/;"	f	file:
+secs	h/mon/monbootp.h	/^    unsigned short secs;		\/* time client has been trying	*\/$/;"	m	struct:bootp_msg
+seeq	sys/gpq.c	/^char *seeq(int q)$/;"	f
+segment	mon/monpci.c	/^    unsigned short segment;$/;"	m	struct:__anon1	file:
+segment	mon/monpci.c	/^    unsigned short segment;$/;"	m	struct:__anon2	file:
+segment	sys/pci.c	/^    unsigned short segment;$/;"	m	struct:__anon3	file:
+segment	sys/pci.c	/^    unsigned short segment;$/;"	m	struct:__anon4	file:
+segtr	h/i386.h	/^struct segtr {$/;"	s
+segtr	h/mon/moni386.h	/^struct segtr {$/;"	s
+semaph	sys/initialize.c	/^struct	sentry	semaph[NSEM];	\/* semaphore table			*\/$/;"	v	typeref:struct:sentry
+semcnt	h/sem.h	/^	int	semcnt;		\/* count for this semaphore		*\/$/;"	m	struct:sentry
+send	sys/send.c	/^SYSCALL	send(int pid, WORD msg)$/;"	f
+sentry	h/sem.h	/^struct	sentry	{		\/* semaphore table entry		*\/$/;"	s
+set_evec	sys/evec.c	/^int set_evec(unsigned int xnum, u_long handler)$/;"	f
+setdev	sys/setdev.c	/^SYSCALL	setdev(int pid, int dev1, int dev2)$/;"	f
+setjmp	lib/libxc/setjmp.s	/^setjmp:$/;"	l
+setnok	sys/setnok.c	/^SYSCALL	setnok(int nok, int pid)$/;"	f
+setsegs	sys/i386.c	/^int setsegs()$/;"	f
+sgetch	lib/libxc/scanf.c	/^static	sgetch(dummy,cpp)$/;"	f	file:
+shift	lib/libxc/float.s	/^shift:$/;"	l
+shifte	lib/libxc/float.s	/^shifte:	movl	d2,a0@(MANH)		|store high part of mantissa$/;"	l
+shutdown	sys/shutdown.c	/^int shutdown()$/;"	f
+siaddr	h/mon/monbootp.h	/^    long siaddr;			\/* server IP address		*\/$/;"	m	struct:bootp_msg
+signal	sys/signal.c	/^SYSCALL signal(int sem)$/;"	f
+signaln	sys/signaln.c	/^SYSCALL signaln(int sem, int count)$/;"	f
+signature	h/mon/monpci.h	/^    unsigned long   signature;	    \/* "_32_"                            *\/$/;"	m	struct:bios32
+signature	h/pci.h	/^    unsigned long   signature;	    \/* "_32_"                            *\/$/;"	m	struct:bios32
+size_t	h/mon/monsystypes.h	/^typedef	int	size_t;$/;"	t
+size_t	h/systypes.h	/^typedef	int	size_t;$/;"	t
+sizmem	sys/initialize.c	/^long sizmem()$/;"	f
+sleep	sys/sleep.c	/^SYSCALL	sleep(int n)$/;"	f
+sleep10	sys/sleep10.c	/^SYSCALL	sleep10(int n)$/;"	f
+sleep100	sys/sleep100.c	/^SYSCALL sleep100(int n)$/;"	f
+sleep1000	sys/sleep1000.c	/^SYSCALL sleep1000(int n)$/;"	f
+slnempty	sys/clkinit.c	/^int     slnempty;		\/* FALSE if the sleep queue is empty	*\/$/;"	v
+sltop	sys/clkinit.c	/^int     *sltop;			\/* address of key part of top entry in	*\/$/;"	v
+sname	h/mon/monbootp.h	/^    char sname[SZSNAME];		\/* server host name		*\/$/;"	m	struct:bootp_msg
+sprintf	lib/libxc/sprintf.c	/^sprintf(str, fmt, args)$/;"	f
+sprntf	lib/libxc/sprintf.c	/^static sprntf(cpp, c)$/;"	f	file:
+spurious_irq15	sys/intr.S	/^spurious_irq15:$/;"	l
+spurious_irq7	sys/intr.S	/^spurious_irq7:$/;"	l
+sqhead	h/sem.h	/^	int	sqhead;		\/* q index of head of list		*\/$/;"	m	struct:sentry
+sqtail	h/sem.h	/^	int	sqtail;		\/* q index of tail of list		*\/$/;"	m	struct:sentry
+srand	lib/libxc/rand.c	/^srand(unsigned x)$/;"	f
+sreset	sys/sreset.c	/^SYSCALL sreset(int sem, int count)$/;"	f
+sscanf	lib/libxc/scanf.c	/^sscanf(str, fmt, args)$/;"	f
+sstate	h/sem.h	/^	char	sstate;		\/* the state SFREE or SUSED		*\/$/;"	m	struct:sentry
+stacktrace	sys/stacktrace.c	/^SYSCALL stacktrace(int pid)$/;"	f
+start	sys/startup.S	/^start:$/;"	l
+state	h/mon/mon3com.h	/^	unsigned char state;$/;"	m	struct:dev_3c905
+status	h/mon/mon3com.h	/^	unsigned long	status;$/;"	m	struct:eth_pd
+stop	sys/initialize.c	/^int stop(char *s)$/;"	f
+stopclk	sys/ssclock.c	/^int stopclk()$/;"	f
+strcat	lib/libxc/strcat.c	/^char *strcat(char *s1, char *s2)$/;"	f
+strchr	lib/libxc/strchr.c	/^char *strchr (const char *s, int c)$/;"	f
+strcmp	lib/libxc/strcmp.c	/^int strcmp(const char *s1, const char *s2)$/;"	f
+strcpy	lib/libxc/strcpy.c	/^char *strcpy(char *s1, const char *s2)$/;"	f
+strlen	lib/libxc/strlen.c	/^int strlen(const char *s)$/;"	f
+strncat	lib/libxc/strncat.c	/^char *strncat(char *s1, char *s2, int n)$/;"	f
+strncmp	lib/libxc/strncmp.c	/^strncmp(char *s1, char *s2, int n)$/;"	f
+strncpy	lib/libxc/strncpy.c	/^char *strncpy(char *s1, char *s2, int n)$/;"	f
+strtclk	sys/ssclock.c	/^int strtclk()$/;"	f
+sub_vendor	h/mon/monbootp.h	/^struct sub_vendor {			\/* vendor sub-field		*\/$/;"	s
+sungetch	lib/libxc/scanf.c	/^static	sungetch(dummy,cpp)$/;"	f	file:
+suspend	sys/suspend.c	/^SYSCALL	suspend(int pid)$/;"	f
+swab	lib/libxc/swab.c	/^swab(short *pf, short *pt, int n)$/;"	f
+swap	lib/libxc/aldiv.s	/^	swap	d0		|  by 2 ** 16$/;"	d
+swap	lib/libxc/aldiv.s	/^	swap	d0		|put things right$/;"	d
+swap	lib/libxc/aldiv.s	/^	swap	d0		|temporarily save quotient low in high$/;"	d
+swap	lib/libxc/almul.s	/^	swap	d1		|d1 =$/;"	d
+swap	lib/libxc/almul.s	/^	swap	d2		|swap alo-ahi$/;"	d
+swap	lib/libxc/almul.s	/^	swap	d3		|swap blo-bhi$/;"	d
+swap	lib/libxc/alrem.s	/^	swap	d0		|   dividend high$/;"	d
+swap	lib/libxc/alrem.s	/^	swap	d0		|   remainder$/;"	d
+swap	lib/libxc/auldiv.s	/^	swap	d0		|  by 2 ** 16$/;"	d
+swap	lib/libxc/auldiv.s	/^	swap	d0		|put things right$/;"	d
+swap	lib/libxc/auldiv.s	/^	swap	d0		|temporarily save quotient low in high$/;"	d
+swap	lib/libxc/aulmul.s	/^	swap	d1		|d1 =$/;"	d
+swap	lib/libxc/aulmul.s	/^	swap	d2		|swap alo-ahi$/;"	d
+swap	lib/libxc/aulmul.s	/^	swap	d3		|swap blo-bhi$/;"	d
+swap	lib/libxc/aulrem.s	/^	swap	d0		|   dividend high$/;"	d
+swap	lib/libxc/aulrem.s	/^	swap	d0		|   remainder$/;"	d
+swap	lib/libxc/float.s	/^	swap	d0$/;"	d
+swap	lib/libxc/ldiv.s	/^	swap	d0		|  by 2 ** 16$/;"	d
+swap	lib/libxc/ldiv.s	/^	swap	d0		|put things right$/;"	d
+swap	lib/libxc/ldiv.s	/^	swap	d0		|temporarily save quotient low in high$/;"	d
+swap	lib/libxc/lmul.s	/^	swap	d1		|d1 =$/;"	d
+swap	lib/libxc/lmul.s	/^	swap	d2		|swap alo-ahi$/;"	d
+swap	lib/libxc/lmul.s	/^	swap	d3		|swap blo-bhi$/;"	d
+swap	lib/libxc/lrem.s	/^	swap	d0		|   dividend high$/;"	d
+swap	lib/libxc/lrem.s	/^	swap	d0		|   remainder$/;"	d
+swap	lib/libxc/uldiv.s	/^	swap	d0		|divide dividend$/;"	d
+swap	lib/libxc/uldiv.s	/^	swap	d0		|put things right$/;"	d
+swap	lib/libxc/uldiv.s	/^	swap	d0		|temporarily save quotient low in high$/;"	d
+swap	lib/libxc/ulmul.s	/^	swap	d1		|d1 =$/;"	d
+swap	lib/libxc/ulmul.s	/^	swap	d2		|swap alo-ahi$/;"	d
+swap	lib/libxc/ulmul.s	/^	swap	d3		|swap blo-bhi$/;"	d
+swap	lib/libxc/ulrem.s	/^	swap	d0		|   dividend high$/;"	d
+swap	lib/libxc/ulrem.s	/^	swap	d0		|   remainder$/;"	d
+swblk_t	h/mon/monsystypes.h	/^typedef	long	swblk_t;$/;"	t
+swblk_t	h/systypes.h	/^typedef	long	swblk_t;$/;"	t
+sysinit	sys/initialize.c	/^LOCAL int sysinit()$/;"	f
+tc_eof	h/tty.h	/^	unsigned char	tc_eof;$/;"	m	struct:tchars
+tc_eol	h/tty.h	/^	unsigned char	tc_eol;$/;"	m	struct:tchars
+tc_erase	h/tty.h	/^	unsigned char	tc_erase;$/;"	m	struct:tchars
+tc_intr	h/tty.h	/^	unsigned char	tc_intr;$/;"	m	struct:tchars
+tc_kill	h/tty.h	/^	unsigned char	tc_kill;$/;"	m	struct:tchars
+tc_lnext	h/tty.h	/^	unsigned char	tc_lnext;$/;"	m	struct:tchars
+tc_reprint	h/tty.h	/^	unsigned char	tc_reprint;$/;"	m	struct:tchars
+tc_start	h/tty.h	/^	unsigned char	tc_start;$/;"	m	struct:tchars
+tc_stop	h/tty.h	/^	unsigned char	tc_stop;$/;"	m	struct:tchars
+tc_susp	h/tty.h	/^	unsigned char	tc_susp;$/;"	m	struct:tchars
+tc_werase	h/tty.h	/^	unsigned char	tc_werase;$/;"	m	struct:tchars
+tchars	h/tty.h	/^struct tchars {$/;"	s
+tftp_ack	h/mon/montftp.h	/^struct tftp_ack {$/;"	s
+tftp_data	h/mon/montftp.h	/^struct tftp_data {$/;"	s
+tftp_req	h/mon/montftp.h	/^struct tftp_req {$/;"	s
+time_t	h/mon/monsystypes.h	/^typedef	int	time_t;$/;"	t
+time_t	h/systypes.h	/^typedef	int	time_t;$/;"	t
+tname	config/config.y	/^tname		:	id COLON$/;"	l
+toascii	h/ctype.h	33;"	d
+tolower	h/ctype.h	32;"	d
+toupper	h/ctype.h	31;"	d
+trap	sys/evec.c	/^void trap(int inum)$/;"	f
+truncew	h/mem.h	11;"	d
+truncmb	h/mem.h	19;"	d
+tstl	lib/libxc/almul.s	/^	tstl	d4		|sign of result$/;"	d
+tstl	lib/libxc/blt.s	/^	tstl	d0		|any long's left$/;"	d
+tstl	lib/libxc/blt.s	/^	tstl	d0		|are we on a long boundry?$/;"	d
+tstl	lib/libxc/float.s	/^	tstl	d0			|set condition code$/;"	d
+tstl	lib/libxc/float.s	/^	tstl	d0			|test sign of external$/;"	d
+tstl	lib/libxc/float.s	/^	tstl	d2			|check sign of result$/;"	d
+tstl	lib/libxc/lmul.s	/^	tstl	d4		|sign of result$/;"	d
+tstw	lib/libxc/float.s	/^	tstw	d0			|branch to 1$ for$/;"	d
+tty	h/tty.h	/^struct tty {$/;"	s
+tty	sys/initialize.c	/^struct  tty     tty[Ntty];	\/* SLU buffers and mode control		*\/$/;"	v	typeref:struct:tty
+tty_cols	h/tty.h	/^	int		 tty_cols;$/;"	m	struct:tty
+tty_cpid	h/tty.h	/^	int		 tty_cpid;	\/* controlling process		*\/$/;"	m	struct:tty
+tty_ctime	h/tty.h	/^	unsigned long	 tty_ctime;	\/* last command time		*\/$/;"	m	struct:tty
+tty_icount	h/tty.h	/^	unsigned short	 tty_icount;	\/* # characters in input buffer	*\/$/;"	m	struct:tty
+tty_iflags	h/tty.h	/^	unsigned char	 tty_iflags;	\/* TIF_* below			*\/$/;"	m	struct:tty
+tty_in	h/tty.h	/^	unsigned char	 tty_in[IBLEN];$/;"	m	struct:tty
+tty_isema	h/tty.h	/^	int		 tty_isema;	\/* 1\/0 semaphore for tty input	*\/$/;"	m	struct:tty
+tty_istart	h/tty.h	/^	unsigned short	 tty_istart;	\/* index of first character	*\/$/;"	m	struct:tty
+tty_ltime	h/tty.h	/^	unsigned long	 tty_ltime;	\/* login time			*\/$/;"	m	struct:tty
+tty_ocount	h/tty.h	/^	unsigned short	 tty_ocount;	\/* # characters in output buffer*\/$/;"	m	struct:tty
+tty_oflags	h/tty.h	/^	unsigned char	 tty_oflags;	\/* TOF_* below			*\/$/;"	m	struct:tty
+tty_osema	h/tty.h	/^	int		 tty_osema;	\/* output buffer space semaphore*\/$/;"	m	struct:tty
+tty_ostart	h/tty.h	/^	unsigned short	 tty_ostart;	\/* index of first character	*\/$/;"	m	struct:tty
+tty_out	h/tty.h	/^	unsigned char	 tty_out[OBLEN];$/;"	m	struct:tty
+tty_pdev	h/tty.h	/^	struct devsw	*tty_pdev;	\/* tty dev structure		*\/$/;"	m	struct:tty	typeref:struct:tty::devsw
+tty_phw	h/tty.h	/^	struct devsw	*tty_phw;	\/* hardware dev structure	*\/$/;"	m	struct:tty	typeref:struct:tty::devsw
+tty_rows	h/tty.h	/^	int		 tty_rows;$/;"	m	struct:tty
+tty_state	h/tty.h	/^	unsigned char	 tty_state;	\/* TTYS_* below			*\/$/;"	m	struct:tty
+tty_tchars	h/tty.h	/^	struct tchars	 tty_tchars;	\/* line editing characters	*\/$/;"	m	struct:tty	typeref:struct:tty::tchars
+tty_uid	h/tty.h	/^	int		 tty_uid;	\/* user identifier		*\/$/;"	m	struct:tty
+ttyalloc	tty/ttyalloc.c	/^ttyalloc()$/;"	f
+ttycntl	tty/ttycntl.c	/^ttycntl(pdev, func, arg1, arg2)$/;"	f
+ttygetc	tty/ttygetc.c	/^ttygetc(pdev)$/;"	f
+ttyiin	tty/ttyiin.c	/^int ttyiin(pdev, ch)$/;"	f
+ttyinit	tty/ttyinit.c	/^int ttyinit(pdev)$/;"	f
+ttynew	tty/ttynew.c	/^ttynew()$/;"	f
+ttyoin	tty/ttyoin.c	/^ttyoin(ptty, ch)$/;"	f
+ttyopen	tty/ttyopen.c	/^int ttyopen(pdev, dvnum)$/;"	f
+ttyputc	tty/ttyputc.c	/^ttyputc(pdev, ch)$/;"	f
+ttyread	tty/ttyread.c	/^int ttyread(pdev, buf, len)$/;"	f
+ttytab	tty/ttyinit.c	/^struct tty	ttytab[Ntty];$/;"	v	typeref:struct:tty
+ttywrite	tty/ttywrite.c	/^ttywrite(pdev, buf, len)$/;"	f
+twoe56	lib/libxc/atof.c	/^double	twoe56	= 72057594037927936.; \/*2^56*\/$/;"	v
+tx_begin	h/mon/mon3com.h	/^	unsigned long tx_begin;$/;"	m	struct:dev_3c905
+tx_end	h/mon/mon3com.h	/^	unsigned long tx_end;$/;"	m	struct:dev_3c905
+txring	mon/mon3com.c	/^struct eth_pd  txring[_3C905_TXRING + 1];$/;"	v	typeref:struct:eth_pd
+type	h/mon/montftp.h	/^    short type;$/;"	m	struct:tftp_ack
+type	h/mon/montftp.h	/^    short type;$/;"	m	struct:tftp_data
+type	h/mon/montftp.h	/^    short type;$/;"	m	struct:tftp_req
+u_char	h/mon/monsystypes.h	/^typedef	unsigned char	u_char;$/;"	t
+u_char	h/systypes.h	/^typedef	unsigned char	u_char;$/;"	t
+u_cksum	h/mon/monudp.h	/^	unsigned short	u_cksum;	\/* UDP checksum (0 => none)	*\/$/;"	m	struct:udp
+u_data	h/mon/monudp.h	/^	char	u_data[U_MAXLEN];	\/* data in UDP message		*\/$/;"	m	struct:udp
+u_dst	h/mon/monudp.h	/^	unsigned short	u_dst;		\/* destination UDP port number	*\/$/;"	m	struct:udp
+u_int	h/mon/monsystypes.h	/^typedef	unsigned int	u_int;$/;"	t
+u_int	h/systypes.h	/^typedef	unsigned int	u_int;$/;"	t
+u_len	h/mon/monudp.h	/^	unsigned short	u_len;		\/* length of UDP data		*\/$/;"	m	struct:udp
+u_long	h/mon/monsystypes.h	/^typedef	unsigned long	u_long;$/;"	t
+u_long	h/systypes.h	/^typedef	unsigned long	u_long;$/;"	t
+u_short	h/mon/monsystypes.h	/^typedef	unsigned short	u_short;$/;"	t
+u_short	h/systypes.h	/^typedef	unsigned short	u_short;$/;"	t
+u_src	h/mon/monudp.h	/^	unsigned short	u_src;		\/* source UDP port number	*\/$/;"	m	struct:udp
+udp	h/mon/monudp.h	/^struct	udp {				\/* message format of DARPA UDP	*\/$/;"	s
+uldiv	lib/libxc/uldiv.s	/^uldiv:	link	a6,#0$/;"	l
+ulmul	lib/libxc/ulmul.s	/^ulmul:	link	a6,#0$/;"	l
+ulrem	lib/libxc/ulrem.s	/^ulrem:	link	a6,#0$/;"	l
+ungetch	lib/libxc/scanf.c	/^static	ungetch(int dev, int *buf)$/;"	f	file:
+unmarked	h/mark.h	17;"	d
+unsleep	sys/unsleep.c	/^SYSCALL	unsleep(int pid)$/;"	f
+unused	h/mon/monbootp.h	/^    short unused;			\/* unused			*\/$/;"	m	struct:bootp_msg
+userret	sys/userret.c	/^int userret()$/;"	f
+ushort	h/mon/monsystypes.h	/^typedef	unsigned short	ushort;		\/* System V compatibility *\/$/;"	t
+ushort	h/systypes.h	/^typedef	unsigned short	ushort;		\/* System V compatibility *\/$/;"	t
+ut2ltim	h/date.h	42;"	d
+v_data	h/mon/monbootp.h	/^    char v_data[1];$/;"	m	struct:vendor
+v_magic	h/mon/monbootp.h	/^    long v_magic;			\/* vendor magic cookie		*\/$/;"	m	struct:vendor
+val	h/mon/monsystypes.h	/^	int	val[13];$/;"	m	struct:label_t
+val	h/mon/monsystypes.h	/^	int	val[14];$/;"	m	struct:label_t
+val	h/mon/monsystypes.h	/^typedef	struct	_quad { long val[2]; } quad;$/;"	m	struct:_quad
+val	h/systypes.h	/^	int	val[13];$/;"	m	struct:label_t
+val	h/systypes.h	/^	int	val[14];$/;"	m	struct:label_t
+val	h/systypes.h	/^typedef	struct	_quad { long val[2]; } quad;$/;"	m	struct:_quad
+vend	h/mon/monbootp.h	/^    char vend[SZVENDOR];$/;"	m	struct:bootp_msg
+vendor	h/mon/monbootp.h	/^struct vendor {$/;"	s
+vers	sys/initialize.c	/^char	vers[100];		\/* Xinu version printed at startup	*\/$/;"	v
+wait	sys/wait.c	/^SYSCALL	wait(int sem)$/;"	f
+wakeup	sys/wakeup.c	/^INTPROC	wakeup()$/;"	f
+write	sys/write.c	/^SYSCALL write(int descrp, void *p, int count)$/;"	f
+xdone	sys/xdone.c	/^int xdone()$/;"	f
+xid	h/mon/monbootp.h	/^    long xid;				\/* transaction id		*\/$/;"	m	struct:bootp_msg
+xt2net	h/date.h	11;"	d
+yiaddr	h/mon/monbootp.h	/^    long yiaddr;			\/* your (client) IP address	*\/$/;"	m	struct:bootp_msg
+zeros	lib/libxc/clear.s	/^zeros:	.long	0,0,0,0,0,0,0,0,0,0,0,0,0	|13 long  of zeros$/;"	l

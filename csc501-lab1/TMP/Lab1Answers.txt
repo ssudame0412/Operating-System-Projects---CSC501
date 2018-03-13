@@ -1,0 +1,47 @@
+Q1 What are the advantages and disadvantages of each of the two scheduling policies? Also, give the advantages and disadvantages of the round robin scheduling policy originally implemented in Xinu.
+
+ANS1 : 
+RANDOM SCHEDULING :
+Advantages:
+ 1. provides good time sharing performance.
+ 2. avoid starvation among processes in the ready queue as the processes are selected based on the random priority number generated. This gives a fair chance for execution for all processes.
+ 3. Decreases response time for less priority processes: As even less priority processes have good chance of getting selected(based on random number), this decreases the response time. In case of priority based scheduling low priority process might not get fair chance to execute, Random scheduling fixes this issue.
+
+Disadvantages:
+1.Random number calculated may not let higher priority process to run. This will increases the turn around time for higher priority processes 
+2.Every time process is selected based on random number. So there is a high degree of randomness which make  process scheduling not deterministic.
+3.More context switching is done compared to default priority scheduling. As preemption in default scheduler only happens if new process with higher priority has to scheduled(or current process is blocked), where as random scheduler might select the same process execution even though it has higher priority. Thus we perform additional context switch. 
+
+LINUX-LIKE SCHEDULER:
+Advantages:
+1.Uses dynamic priority to select process, it maintains fairness among the processes.
+2.Prevents indefinite starvation : A process goodness increases increases if it does not use assigned quantums. This makes sure eventually all processes reach a state with max goodness and are scheduled. 
+3.It is deterministic.
+4.Preemption is more controlled, preemption counter is dynamically calculated ( based on goodness and quantum). In this case Highly interactive processes are preempted more frequently as they move out of ready queue. So, If we don’t set the quantum values dynamically, these process might have to wait for longer durations for there time slice. In case of linux like scheduling, processes which were preempted and couldn’t  utilize their quantum will have higher quantum as well as goodness in the next epoch. This will ensure that they have higher chances of completing their execution in this epoch. This improves their interactive performance.  Thus we can say that it improves the response time.  
+5. It maintains a trade off between turn around time and response time.
+
+DISADVANTAGE
+1. More context switching:  In case of default XInu scheduling policy, a process with higher priority will continue to run until it is blocked or finished. Thus context switch only happens when it is finished or blocked. But in linux like scheduling, context switches will happen more often than default scheduling, thus more overhead.
+2. Also, as it doesn’t allow a process to run completely, the turn around time is reduced compared to default scheduling.
+3. This involves computing goodness and quantum every time scheduling happens and each process has to maintain counter, goodness and quantum, making it complex.
+
+Default Round Robin scheduling policy:
+Advantages:
+1. Prefers higher priority processes. This is important as critical processes must be given higher chances of selection. 
+2.  In case of equal priorities, round robin mechanism gives equal chance of executing. 
+3.  Higher priority process will have less turn around time as higher priority process will continue to run.
+4. Less context switching time because the only time context switch happens when another process with higher priority is scheduled  which leads to more cpu utilization as it minimizes the overhead of context switch.
+	
+Disadvantages:
+1. May lead to indefinite starvation, as it always prefers higher priority processed over lower priority, lower priority process may not get chance to execute.
+2. Lower turn around time for lower priority process.
+
+Q2: Assume that there are three processes P1, P2, P3 that will run forever without blocking. We want to allocate the following CPU times to each of them: 20% to P1, 30% to P2, and 50% to P3. Which priorities do we need to set to P1, P2, and P3 to accomplish this if we want to use the Random scheduler?  Assume that those processes are the only ones running in the machine. Could you give a generalization of your result to n processes? Explain.
+
+Ans2: We have to assign the priorities of all processed in the same ratio of given percentages ie. For given example priorities of P1 : P2 : P3 should be in ratio 2:3:5.
+If there are n number of processes running, each with percentage ( N1%, N2%, N3% …. Nn%) such that (N1 +N2 +N3 +… Nn = 100) , the priorities should be assigned in ratio N1:N2:N3:….:Nn.
+
+Q3: Describe the way each of the schedulers affects the NULL process.
+Ans3:   In case of all scheduling algorithms, Null process is scheduled only if there is no other runnable process in ready queue. 
+Also, when currpid is NULLPROC, and another process becomes runnable in between a time slice( “preempt”) ,  the null process must go back to the ready queue, a process is again re-elected. For example: In  linux-line scheduler, If there is no process runnable( all are blocked and there is only one process ie Null process in the ready queue), Null process is scheduled and the preempt value is set to QUANTUM. Now in between if another Process comes in the readyqueue. Epoch is restarted, and a new process is elected( with maximum goodness).
+
